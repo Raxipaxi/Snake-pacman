@@ -6,16 +6,16 @@ public class ColaEstatica
 {
     private int count;
     private int size;
-    private Object[] Cola;
+    private GameObject[] Cola;
 
     public ColaEstatica(int size)
     {
         this.size = size;
         this.count = 0;
-        Cola = new Object[size];
+        Cola = new GameObject[size];
     }
 
-    void Enqueue(Object obj)
+    void Enqueue(GameObject obj)
     {
         if (this.size >= count + 1)
         {
