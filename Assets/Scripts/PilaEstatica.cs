@@ -6,26 +6,23 @@ public class PilaEstatica
 {
     private int count;
     private int size;
-    private Object[] Pila;
+    private GameObject[] Pila;
 
     public PilaEstatica(int size)
     {
         this.size = size;
-        Pila = new Object[size];
+        Pila = new GameObject[size];
         this.count = 0;
     }
 
-    void Push(Object obj)
+    void Push(GameObject obj)
     {
-        if (this.size >= count + 1)
-        {
+        if (this.size >= count + 1)           
             Pila[count++] = obj;
-        }
-        
     }
-    Object Pop()
+    GameObject Pop()
     {
-        if (count - 1 > 0)
+        if (!Empty())
         {
             return Pila[count--];
         }
@@ -34,6 +31,17 @@ public class PilaEstatica
             return Pila[0];
         }
         
+    }
+    bool Empty()
+    {
+        if (count==0)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
     int Count()
     {
