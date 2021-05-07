@@ -27,13 +27,16 @@ public class PlayerInput : MonoBehaviour
         vertical = 0;
 
         GetKeyboardInput();
+        SetMovement(); 
         
     }
 
     void GetKeyboardInput()
     {
-        horizontal = (int)Input.GetAxisRaw("Horizontal");
-        vertical = (int)Input.GetAxisRaw("Vertical");
+        //horizontal = (int)Input.GetAxisRaw("Horizontal");
+        //vertical = (int)Input.GetAxisRaw("Vertical");
+        horizontal = GetAxisRaw(Axis.Horizontal); // Doesnt go crazy 
+        vertical = GetAxisRaw(Axis.Vertical);
 
         if (horizontal!=0)
         {
@@ -57,7 +60,32 @@ public class PlayerInput : MonoBehaviour
     {
         if(axis==  Axis.Horizontal)
         {
-         //   bool left = Input.GetKeyDown()
+            bool left = Input.GetKeyDown(KeyCode.LeftArrow);
+            bool right = Input.GetKeyDown(KeyCode.RightArrow);
+            if (left)
+            {
+                return -1;
+            }
+            if (right)
+            {
+                return 1;
+            }
+            return 0;
+        }
+        else if(axis==Axis.Vertical)
+        {
+            bool up = Input.GetKeyDown(KeyCode.UpArrow);
+            bool down = Input.GetKeyDown(KeyCode.DownArrow);
+
+            if (down)
+            {
+                return -1;
+            }
+            if (up)
+            {
+                return 1;
+            }
+            return 0;
         }
         return 0;
     }

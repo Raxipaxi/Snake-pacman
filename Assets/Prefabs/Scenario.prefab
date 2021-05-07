@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6130751423151020496}
   m_Layer: 0
   m_Name: Box
-  m_TagString: Untagged
+  m_TagString: NotMoveable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97,8 +97,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &6130751423151020496
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -222,11 +222,11 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &6130751423198319203
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -371,7 +371,7 @@ GameObject:
   - component: {fileID: 6130751422009358390}
   m_Layer: 0
   m_Name: Wall 3
-  m_TagString: Untagged
+  m_TagString: NotMoveable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -483,7 +483,7 @@ GameObject:
   - component: {fileID: 6130751422009358387}
   m_Layer: 0
   m_Name: Wall 4
-  m_TagString: Untagged
+  m_TagString: NotMoveable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -595,7 +595,7 @@ GameObject:
   - component: {fileID: 6130751422009358385}
   m_Layer: 0
   m_Name: Wall 2
-  m_TagString: Untagged
+  m_TagString: NotMoveable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -752,7 +752,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 411d063d920f096499730c91db72a4cb, type: 2}
+  - {fileID: 2100000, guid: cbd7039ef89012e48acdb98e559c3f56, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -802,7 +802,7 @@ GameObject:
   - component: {fileID: 6130751422009358384}
   m_Layer: 0
   m_Name: Wall 1
-  m_TagString: Untagged
+  m_TagString: NotMoveable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1008,11 +1008,11 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &6130751422411126333
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1125,8 +1125,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721754743919403
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1253,8 +1253,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721754746347905
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1381,8 +1381,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721754717525296
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1509,8 +1509,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721754707702295
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1637,8 +1637,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721754678306394
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1765,8 +1765,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721754659224022
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1893,8 +1893,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721754660383930
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2021,8 +2021,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721754664696112
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2149,8 +2149,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721754652229064
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2277,8 +2277,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721754629107356
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2405,8 +2405,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721755066174772
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2533,8 +2533,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721755001216287
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2672,11 +2672,11 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &6130751421337536178
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2789,8 +2789,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721754881681121
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2917,8 +2917,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721754845356465
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3045,8 +3045,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721754153025913
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3184,11 +3184,11 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &6130751422517765264
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3301,8 +3301,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721754103221603
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3429,8 +3429,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721754447385788
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3568,11 +3568,11 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &6130751423122373626
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3685,8 +3685,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721754394788922
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3824,11 +3824,11 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &6130751422098650618
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3941,8 +3941,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721754365730851
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4069,8 +4069,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721754357508641
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4208,11 +4208,11 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &6130751423194383048
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4325,8 +4325,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721753724235808
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4453,8 +4453,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721753703900217
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4581,8 +4581,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721753657268234
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4709,8 +4709,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721753631245850
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4837,8 +4837,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721753547010757
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4965,8 +4965,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721753527241459
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5093,8 +5093,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721753505825496
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5232,11 +5232,11 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &6130751423091898982
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5349,8 +5349,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721753156327192
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5477,8 +5477,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721753088185455
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5605,8 +5605,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721753050732244
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5733,8 +5733,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721753028225385
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5861,8 +5861,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721753008605895
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5989,8 +5989,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721752978735640
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6117,8 +6117,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721753450480199
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6245,8 +6245,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721753455276085
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6373,8 +6373,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721753432958586
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6501,8 +6501,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721753415819111
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6629,8 +6629,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721753372405504
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6757,8 +6757,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721753338771145
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6885,8 +6885,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 3
 --- !u!64 &552721753296737200
 MeshCollider:
   m_ObjectHideFlags: 0
