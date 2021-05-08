@@ -141,4 +141,9 @@ public class SnakeMovement : MonoBehaviour
         move = false;
         Move();
     }
+
+    void OnTriggerEnter(Collider target)
+    {
+        
+    }
 }
