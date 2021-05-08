@@ -1,6 +1,10 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< HEAD
 --- !u!1 &6976498411594676175
+=======
+--- !u!1 &3073567307194147101
+>>>>>>> DevelopmentRax
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,9 +12,15 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 5426526729553960663}
   - component: {fileID: 6018553338447111407}
   - component: {fileID: 1997709004780335879}
+=======
+  - component: {fileID: 2049168639773259314}
+  - component: {fileID: 5527714155512903038}
+  - component: {fileID: 6895584050965547850}
+>>>>>>> DevelopmentRax
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -18,40 +28,69 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &5426526729553960663
+=======
+--- !u!4 &2049168639773259314
+>>>>>>> DevelopmentRax
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 6976498411594676175}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.599, z: 0}
   m_LocalScale: {x: 0.56, y: 1.57, z: 1.34}
+=======
+  m_GameObject: {fileID: 3073567307194147101}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.995, z: 0}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+>>>>>>> DevelopmentRax
   m_Children: []
   m_Father: {fileID: 3251690325731628864}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!33 &6018553338447111407
+=======
+--- !u!33 &5527714155512903038
+>>>>>>> DevelopmentRax
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 6976498411594676175}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!135 &1997709004780335879
+=======
+  m_GameObject: {fileID: 3073567307194147101}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!135 &6895584050965547850
+>>>>>>> DevelopmentRax
 SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 6976498411594676175}
+=======
+  m_GameObject: {fileID: 3073567307194147101}
+>>>>>>> DevelopmentRax
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
+<<<<<<< HEAD
   m_Radius: 0.44
+=======
+  m_Radius: 0.68
+>>>>>>> DevelopmentRax
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &3251690325731233216
 PrefabInstance:
@@ -82,15 +121,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a64ff229f591b3647acfd5348c8a2fa0, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< HEAD
       value: -7.3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a64ff229f591b3647acfd5348c8a2fa0, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.88
+=======
+      value: -22.68977
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a64ff229f591b3647acfd5348c8a2fa0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+>>>>>>> DevelopmentRax
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a64ff229f591b3647acfd5348c8a2fa0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 2.05196
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a64ff229f591b3647acfd5348c8a2fa0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a64ff229f591b3647acfd5348c8a2fa0, type: 3}
       propertyPath: m_LocalRotation.w
