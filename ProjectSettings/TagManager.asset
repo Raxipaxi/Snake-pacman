@@ -8,6 +8,7 @@ TagManager:
   - Head
   - Tail
   - NotMoveable
+  - test
   layers:
   - Default
   - TransparentFX
