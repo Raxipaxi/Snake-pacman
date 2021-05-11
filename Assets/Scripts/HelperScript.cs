@@ -12,8 +12,9 @@ public class Tags
     public static string BOX = "Box";
     public static string FRUIT = "Fruit";
     public static string BOMB = "Bomb";
-    public static string Tail = "Tail";
+    public static string TAIL = "Tail";
     public static string Node = "Head";
+    public static string GHOST = "Ghost";
 
 }
 

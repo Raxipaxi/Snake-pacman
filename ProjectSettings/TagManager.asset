@@ -8,6 +8,8 @@ TagManager:
   - Head
   - Tail
   - NotMoveable
+  - Fruit
+  - Ghost
   layers:
   - Default
   - TransparentFX

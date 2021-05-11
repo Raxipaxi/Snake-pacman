@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6897738851735700537}
   m_Layer: 0
   m_Name: Tail
-  m_TagString: Tail
+  m_TagString: Node
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -204,7 +204,7 @@ SphereCollider:
   m_GameObject: {fileID: 6897738852799854685}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
@@ -237,7 +237,7 @@ GameObject:
   - component: {fileID: 2701058670086180536}
   - component: {fileID: 6707523015256893166}
   - component: {fileID: 4895117423637590721}
-  - component: {fileID: 1416795771368497187}
+  - component: {fileID: 93886551}
   m_Layer: 0
   m_Name: Snake 1
   m_TagString: Player
@@ -319,7 +319,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d50b900c639013f49bf5510f8b047da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1416795771368497187
+--- !u!114 &93886551
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -328,9 +328,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 6897738853045510442}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ea767d415c6396419801a114ad7a0e1, type: 3}
+  m_Script: {fileID: 11500000, guid: a84b938c6833d7d4ba6e923e20c423e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  direction: 1
+  frequency: 3
+  stepLenght: 7.5
+  bodyPartPrefab: {fileID: 4621276184733141739, guid: 81c3c3cf42b8a3b4ba6b4ae7dda45d44, type: 3}
 --- !u!1 &6897738853366983898
 GameObject:
   m_ObjectHideFlags: 0
