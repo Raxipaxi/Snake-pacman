@@ -56,9 +56,10 @@ public class LevelManager : MonoBehaviour
 
     void Update()
     {
+        Debug.Log("1 Frutas cant: " + GameObject.FindGameObjectsWithTag(Tags.FRUIT).Length);
         CheckFruits();
-        CheckLevelPass();
-        KeyHacks();
+       /* CheckLevelPass();
+        KeyHacks();*/
 
     }
     public void FruitsPool()
@@ -67,6 +68,7 @@ public class LevelManager : MonoBehaviour
         for (int i = 0; i < itemsRequired; i++)
         {
             Fruits.Add(Fruit);
+            Debug.Log("Pool " + Fruits.Count);
         }
     }
     public void PlayLevel(string level)
@@ -82,7 +84,10 @@ public class LevelManager : MonoBehaviour
     {
         if (Fruits.Count>0 && GameObject.FindGameObjectsWithTag(Tags.FRUIT).Length == 0)
         {
+            DestroyObject(GameObject.FindGameObjectWithTag(Tags.FRUIT).GetComponent(GameObject));
             SpawnFruit();
+            Fruits.RemoveAt(Fruits.Count - 1);
+            itemsRequired--;
         }
     }
     void SpawnFruit()
@@ -94,7 +99,7 @@ public class LevelManager : MonoBehaviour
     private void CheckLevelPass()
     {
        
-        if (SceneManager.GetActiveScene().buildIndex == 2 && itemsRequired == 3) //aca lo mismo, pero sin sacar la primera condicion.
+        if (SceneManager.GetActiveScene().buildIndex == 2 && itemsRequired == 0) //aca lo mismo, pero sin sacar la primera condicion.
         {
             Time.timeScale = 0f;
             screenWin.SetActive(true);

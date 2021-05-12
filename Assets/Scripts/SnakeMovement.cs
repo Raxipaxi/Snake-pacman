@@ -155,10 +155,8 @@ public class SnakeMovement : MonoBehaviour
 
     private void OnTriggerEnter(Collider target)
     {
-        Debug.Log(" coll 1");
         if (target.tag == Tags.FRUIT)
         {
-            Debug.Log("coll 2");
             target.gameObject.SetActive(false);
             createBodyPart = true;
         }
