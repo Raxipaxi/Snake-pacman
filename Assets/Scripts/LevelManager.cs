@@ -11,6 +11,8 @@ public class LevelManager : MonoBehaviour
     [SerializeField]
     int nextLevel;
     [SerializeField]
+    GameObject Fruit;
+    [SerializeField]
     int itemsRequired; //cantidad de items o frutas para ganar
 
     //public static LevelManager instance;
@@ -25,6 +27,10 @@ public class LevelManager : MonoBehaviour
     private float fruitY = 3.5f;
 
 
+
+
+    // FruitGenerator
+    List<GameObject> Fruits;
     /* 
     * controlar que siga habiendo vidas
     * 
@@ -42,16 +48,27 @@ public class LevelManager : MonoBehaviour
         currentLevelReset = SceneManager.GetActiveScene().buildIndex;
         nextLevel = SceneManager.GetActiveScene().buildIndex + 1;
         #endregion
-        itemsRequired = 0;
+        FruitsPool();
+        
+        //itemsRequired = 0;
+
     }
 
     void Update()
     {
+        CheckFruits();
         CheckLevelPass();
         KeyHacks();
 
     }
-
+    public void FruitsPool()
+    {
+        Fruits = new List<GameObject>();
+        for (int i = 0; i < itemsRequired; i++)
+        {
+            Fruits.Add(Fruit);
+        }
+    }
     public void PlayLevel(string level)
     {
         Time.timeScale = 1f;
@@ -60,6 +77,19 @@ public class LevelManager : MonoBehaviour
    public void LockLevels()
     {
         PlayerPrefs.DeleteAll();
+    }
+    void CheckFruits()
+    {
+        if (Fruits.Count>0 && GameObject.FindGameObjectsWithTag(Tags.FRUIT).Length == 0)
+        {
+            SpawnFruit();
+        }
+    }
+    void SpawnFruit()
+    {
+        int spw = Random.Range(0, SpawnPointslvl1.spawn.Length - 1);
+        Fruit = Instantiate(Fruits[Fruits.Count - 1],new Vector3(SpawnPointslvl1.spawn[spw].x, fruitY, SpawnPointslvl1.spawn[spw].z), Quaternion.identity);
+
     }
     private void CheckLevelPass()
     {

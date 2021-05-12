@@ -10,12 +10,12 @@ public class SnakeMovement : MonoBehaviour
 
     [SerializeField] float frequency = 0.2f;
     [SerializeField] float stepLenght = 0.2f;
+    [SerializeField] Transform spawnPos;
     private bool move;
     private float counter;
 
     // Parts to be added
     [SerializeField] private GameObject bodyPartPrefab;
-    //[SerializeField] private List<Rigidbody> BodyParts;
 
 
     [HideInInspector]
@@ -27,17 +27,18 @@ public class SnakeMovement : MonoBehaviour
     private Rigidbody headBody;
     private List<Rigidbody> BodyParts; // Aca reemplazar con TDA de lista enlazada
 
-
-
     private bool createBodyPart;
 
     void Awake ()
     {
-        tr = transform;
-        mainBody = GetComponent<Rigidbody>();  
+        //tr = transform;
+        tr = transform; //--
+        mainBody = GetComponent<Rigidbody>();
+        mainBody.position = spawnPos.position; //--
+        Debug.Log("pos main " + mainBody.position);
         InitSnakeParts();
         InitPlayer();
-       headBody = BodyParts[0];
+        headBody = BodyParts[0];
         DeltaPosition = new List<Vector3>() // Must be in the same order as PlayerDirection enum
         {
             new Vector3(-stepLenght,0f,0f ), // -x Left
@@ -50,6 +51,7 @@ public class SnakeMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       // return;//--
         CheckMovFrequency();
         if (move)
         {
@@ -74,6 +76,8 @@ public class SnakeMovement : MonoBehaviour
                 BodyParts[2].position = BodyParts[1].position + new Vector3(Metrics.NODESIZE, 0f, 0f);
                 break;
             case PlayerDirection.UP:
+                BodyParts[0].position = mainBody.position;//--
+                Debug.Log("Pos 0 " + BodyParts[0].position);
                 BodyParts[1].position = BodyParts[0].position - new Vector3(0f, 0f, Metrics.NODEHEADDIST);
                 BodyParts[2].position = BodyParts[1].position - new Vector3(0f, 0f, Metrics.NODESIZE);
                 break;
@@ -151,13 +155,29 @@ public class SnakeMovement : MonoBehaviour
 
     private void OnTriggerEnter(Collider target)
     {
+        Debug.Log(" coll 1");
         if (target.tag == Tags.FRUIT)
         {
-           
+            Debug.Log("coll 2");
             target.gameObject.SetActive(false);
             createBodyPart = true;
         }
 
+        //switch (target.tag)
+        //{
+        //    case Tags.FRUIT:
+        //        target.gameObject.SetActive(false);
+        //        createBodyPart = true;
+        //        break;
+        //    case Tags.GHOST:
+        //        break;
+        //    case Tags.BOX:
+        //    case Tags.WALL:
+                        
+
+        //    default:
+        //        break;
+        //}
 
     }
 
