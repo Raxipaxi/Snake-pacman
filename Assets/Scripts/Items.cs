@@ -5,13 +5,14 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Items : MonoBehaviour
-{
+{ 
+    //*ESTE SCRIPT NO SE ESTA USANDO POR EL MOMENTO
     [SerializeField]
     public static int numberItem;
 
     public void OnTriggerEnter(Collider other) //TEST
     {
-        if (other.gameObject.tag == "test") // chequea su condicion para pasar al siguiente nivel
+        if (other.gameObject.tag == "Player") // chequea su condicion para pasar al siguiente nivel
         {
             numberItem += 1;
             Destroy(gameObject);
@@ -28,10 +29,7 @@ public class Items : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Tab))
-        {
-            Debug.Log($"Items {numberItem}");
-        }
-       
+        Debug.Log($"Items {numberItem}");
+
     }
 }
