@@ -7,9 +7,13 @@ public class LevelManager : MonoBehaviour
 {
     [SerializeField]
     private CherriesLeftManager cherriesWin;
+    [SerializeField]
+    private SnakeMovement snakeMovement;
     private int currentLevelReset;
     [SerializeField]
     GameObject screenWin;
+    [SerializeField]
+    GameObject screenDefeat;
     [SerializeField]
     int nextLevel;
     [SerializeField]
@@ -51,18 +55,23 @@ public class LevelManager : MonoBehaviour
         nextLevel = SceneManager.GetActiveScene().buildIndex + 1;
         #endregion
         FruitsPool();
-        
-       
+        Time.timeScale = 1f;
+
 
     }
 
     void Update()
     {
         Debug.Log("1 Frutas cant: " + GameObject.FindGameObjectsWithTag(Tags.FRUIT).Length);
-        CheckFruits();
-        RestartLevel();
+        CheckFruits();     
         CheckLevelPass();
+        if (snakeMovement.onDeath)
+        {
+            Time.timeScale = 0f;
+            screenDefeat.SetActive(true);
+        }
         // KeyHacks();
+
 
     }
     public void FruitsPool()
@@ -137,10 +146,7 @@ public class LevelManager : MonoBehaviour
     }
    public void RestartLevel()
    {
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            SceneManager.LoadScene(currentLevelReset);
-        }     
+        SceneManager.LoadScene(currentLevelReset);
    }
 
     private void KeyHacks()

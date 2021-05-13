@@ -16,6 +16,7 @@ public class SnakeMovement : MonoBehaviour
     [SerializeField] float frequency = 0.2f;
     [SerializeField] float stepLenght = 0.2f;
     [SerializeField] Transform spawnPos;
+    public bool onDeath;
     private bool move;
     private float counter;
     private PlayerDirection reset;
@@ -42,6 +43,7 @@ public class SnakeMovement : MonoBehaviour
     {
         //tr = transform;
         tr = transform; //--
+        onDeath = false;
         mainBody = GetComponent<Rigidbody>();
         mainBody.position = spawnPos.position; //--
         Debug.Log("pos main " + mainBody.position);
@@ -229,6 +231,11 @@ public class SnakeMovement : MonoBehaviour
                     mainBody.position = spawnPos.position; //-
                     InitSnakeParts();
                     InitPlayer();
+                }
+                else 
+                {
+                    onDeath = true;
+
                 }
                 break;
             default:

@@ -17,6 +17,7 @@ public class CherriesLeftManager : MonoBehaviour
     void Start()
     {
         //cherries = new ColaEstatica(levelMaxCherries);
+        OnWin = false;
         cherries = new Queue<GameObject>();
         player = GameObject.FindGameObjectWithTag("Player");
         player.GetComponent<SnakeMovement>().OnCherryCollected.AddListener(OnCherryCollectedHandler); //Me suscribo al evento en SnakeMovement que se llama al agarrar una fruta, y cuando ocurre se activa el método
