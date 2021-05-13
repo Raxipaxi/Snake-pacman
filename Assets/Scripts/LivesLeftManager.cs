@@ -19,17 +19,17 @@ public class LivesLeftManager : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
         player.GetComponent<SnakeMovement>().OnCherryCollected.AddListener(OnCherryCollectedHandler);
         player.GetComponent<SnakeMovement>().OnGetDamage.AddListener(OnGetDamageHandler);
-        StartLivesStack();
+       // StartLivesStack();
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        //UpdatePositions();
+        UpdatePositions();
     }
 
-    void StartLivesStack()
+    /*void StartLivesStack()
     {
         for(int i = 0; i < initialLives; i++)
         {
@@ -39,19 +39,30 @@ public class LivesLeftManager : MonoBehaviour
             lives.Push(temp);
         }
     }
-
+    */
     void OnCherryCollectedHandler()
     {
         var newLife = Instantiate(snakePartImage);
-        //set parent
+        newLife.transform.SetParent(panel.transform);
         lives.Push(newLife);
     }
     void OnGetDamageHandler()
     {
+        if (lives.Count > 0) 
+        { 
         var newLife = lives.Pop();
         Destroy(newLife);
+        }
     }
 
-    //void UpdatePositions(){}
+    void UpdatePositions()
+    {
+        int index = 0;
+        foreach (GameObject life in lives)
+        {
+            life.transform.localPosition= positions[index].localPosition;
+            index++;
+        }
+    }
 
 }

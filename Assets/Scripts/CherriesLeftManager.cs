@@ -13,7 +13,7 @@ public class CherriesLeftManager : MonoBehaviour
     GameObject player;                           //La referencia al player
     //ColaEstatica cherries;
     Queue<GameObject> cherries;
-    
+    public bool OnWin;
     void Start()
     {
         //cherries = new ColaEstatica(levelMaxCherries);
@@ -28,6 +28,10 @@ public class CherriesLeftManager : MonoBehaviour
     void Update()
     {
         UpdatePositions(); // Actualizo las posiciones cuando saco una cherry
+        if (cherries.Count == 0)
+        {
+            OnWin=true;
+        }
     }
 
     void StartCherriesQueue()

@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
+    [SerializeField]
+    private CherriesLeftManager cherriesWin;
     private int currentLevelReset;
     [SerializeField]
     GameObject screenWin;
@@ -50,16 +52,17 @@ public class LevelManager : MonoBehaviour
         #endregion
         FruitsPool();
         
-        //itemsRequired = 0;
+       
 
     }
 
     void Update()
     {
-        //Debug.Log("1 Frutas cant: " + GameObject.FindGameObjectsWithTag(Tags.FRUIT).Length);
+        Debug.Log("1 Frutas cant: " + GameObject.FindGameObjectsWithTag(Tags.FRUIT).Length);
         CheckFruits();
-       /* CheckLevelPass();
-        KeyHacks();*/
+        RestartLevel();
+        CheckLevelPass();
+        // KeyHacks();
 
     }
     public void FruitsPool()
@@ -68,7 +71,7 @@ public class LevelManager : MonoBehaviour
         for (int i = 0; i < itemsRequired; i++)
         {
             Fruits.Add(Fruit);
-           // Debug.Log("Pool " + Fruits.Count);
+           Debug.Log("Pool " + Fruits.Count);
         }
     }
     public void PlayLevel(string level)
@@ -101,7 +104,7 @@ public class LevelManager : MonoBehaviour
     private void CheckLevelPass()
     {
        
-        if (SceneManager.GetActiveScene().buildIndex == 2 && itemsRequired == 0) //aca lo mismo, pero sin sacar la primera condicion.
+        if (SceneManager.GetActiveScene().buildIndex == 2 && cherriesWin.OnWin) //aca lo mismo, pero sin sacar la primera condicion.
         {
             Time.timeScale = 0f;
             screenWin.SetActive(true);
@@ -111,7 +114,8 @@ public class LevelManager : MonoBehaviour
 
         else   //controla si se gana 
         {
-            if (itemsRequired == 2) //TODO: aca habria que hacer si la cantidad de frutas acumuladas es igual o mayor a itemsRequired. Entonces gana.
+           // Debug.Log(cherriesWin.OnWin+"debugeadoo");
+            if (cherriesWin.OnWin) //TODO: aca habria que hacer si la cantidad de frutas acumuladas es igual o mayor a itemsRequired. Entonces gana.
             {
                 Time.timeScale = 0f;                
                 PlayerPrefs.SetInt("nivel", nextLevel + 1); //se desbloquea el nivel  
@@ -133,7 +137,10 @@ public class LevelManager : MonoBehaviour
     }
    public void RestartLevel()
    {
-        SceneManager.LoadScene(currentLevelReset);
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene(currentLevelReset);
+        }     
    }
 
     private void KeyHacks()
