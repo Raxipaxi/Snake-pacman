@@ -104,10 +104,26 @@ public class LevelManager : MonoBehaviour
     }
     void SpawnFruit()
     {
-        int spw = Random.Range(0, SpawnPointslvl1.spawn.Length - 1); // Array de vector de level 1
-        // int spw = Random.Range(0, SpawnPointslvl2.spawn.Length - 1); // Array de vector de level 2 ///
-        Fruit = Instantiate(Fruits[Fruits.Count - 1],new Vector3(SpawnPointslvl1.spawn[spw].x, fruitY, SpawnPointslvl1.spawn[spw].z), Quaternion.identity);
-        //Fruit = Instantiate(Fruits[Fruits.Count - 1],new Vector3(SpawnPointslvl2.spawn[spw].x, fruitY, SpawnPointslvl2.spawn[spw].z), Quaternion.identity);
+        int spw;
+        switch (SceneManager.GetActiveScene().buildIndex)
+        {
+            case 1:
+                spw = Random.Range(0, SpawnPointslvl1.spawn.Length - 1); // Array de vector de level 1
+                                                                             // int spw = Random.Range(0, SpawnPointslvl2.spawn.Length - 1); // Array de vector de level 2 ///
+                Fruit = Instantiate(Fruits[Fruits.Count - 1], new Vector3(SpawnPointslvl1.spawn[spw].x, fruitY, SpawnPointslvl1.spawn[spw].z), Quaternion.identity);
+                //Fruit = Instantiate(Fruits[Fruits.Count - 1],new Vector3(SpawnPointslvl2.spawn[spw].x, fruitY, SpawnPointslvl2.spawn[spw].z), Quaternion.identity);
+                break;
+
+            case 2:
+                 spw = Random.Range(0, SpawnPointslvl2.spawn.Length - 1); // Array de vector de level 1
+                                                                           
+                Fruit = Instantiate(Fruits[Fruits.Count - 1], new Vector3(SpawnPointslvl2.spawn[spw].x, fruitY, SpawnPointslvl2.spawn[spw].z), Quaternion.identity);
+
+                break;
+            default:
+                break;
+        }
+
 
     }
     private void CheckLevelPass()

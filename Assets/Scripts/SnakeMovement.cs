@@ -86,21 +86,49 @@ public class SnakeMovement : MonoBehaviour
                 BodyParts[0].position = mainBody.position;
                 BodyParts[1].position = BodyParts[0].position + new Vector3(Metrics.NODEHEADDIST, 0f, 0f);
                 BodyParts[2].position = BodyParts[1].position + new Vector3(Metrics.NODESIZE, 0f, 0f);
+                if (BodyParts.Count>3)
+                {
+                    for (int i = 3; i < BodyParts.Count; i++)
+                    {
+                        BodyParts[i].position = BodyParts[i-1].position + new Vector3(Metrics.NODESIZE, 0f, 0f);
+                    }
+                }
                 break;
             case PlayerDirection.UP:
                 BodyParts[0].position = mainBody.position;//--
                 BodyParts[1].position = BodyParts[0].position - new Vector3(0f, 0f, Metrics.NODEHEADDIST);
                 BodyParts[2].position = BodyParts[1].position - new Vector3(0f, 0f, Metrics.NODESIZE);
+                if (BodyParts.Count > 3)
+                {
+                    for (int i = 3; i < BodyParts.Count; i++)
+                    {
+                        BodyParts[i].position = BodyParts[i - 1].position + new Vector3(0f, 0f, Metrics.NODESIZE);
+                    }
+                }
                 break;
             case PlayerDirection.RIGHT:
                 BodyParts[0].position = mainBody.position;
                 BodyParts[1].position = BodyParts[0].position - new Vector3(Metrics.NODEHEADDIST, 0f, 0f);
                 BodyParts[2].position = BodyParts[1].position - new Vector3(Metrics.NODESIZE, 0f, 0f);
+                if (BodyParts.Count > 3)
+                {
+                    for (int i = 3; i < BodyParts.Count; i++)
+                    {
+                        BodyParts[i].position = BodyParts[i - 1].position - new Vector3(Metrics.NODESIZE, 0f, 0f);
+                    }
+                }
                 break;
             case PlayerDirection.DOWN:
                 BodyParts[0].position = mainBody.position;
                 BodyParts[1].position = BodyParts[0].position + new Vector3(0f, 0f, Metrics.NODEHEADDIST);
                 BodyParts[2].position = BodyParts[1].position + new Vector3(0f, 0f, Metrics.NODESIZE);
+                if (BodyParts.Count > 3)
+                {
+                    for (int i = 3; i < BodyParts.Count; i++)
+                    {
+                        BodyParts[i].position = BodyParts[i - 1].position - new Vector3(0f, 0f, Metrics.NODESIZE);
+                    }
+                }
                 break;
             default:
                 break;
@@ -222,14 +250,15 @@ public class SnakeMovement : MonoBehaviour
                 createBodyPart = true;
                 break;
              case Tags.GHOST:
-                OnGetDamage.Invoke();
+               
                 direction=reset;
                 BodyParts[BodyParts.Count - 1].gameObject.SetActive(false);
+                OnGetDamage.Invoke();
                 BodyParts.RemoveAt(BodyParts.Count - 1);
                 if (BodyParts.Count > 2)
                 {
                     mainBody.position = spawnPos.position; //-
-                    InitSnakeParts();
+                   // InitSnakeParts();
                     InitPlayer();
                 }
                 else 
