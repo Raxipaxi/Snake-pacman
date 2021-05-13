@@ -17,6 +17,7 @@ public class SnakeMovement : MonoBehaviour
     [SerializeField] Transform spawnPos;
     private bool move;
     private float counter;
+    private PlayerDirection reset;
 
     // Parts to be added
     [SerializeField] private GameObject bodyPartPrefab;
@@ -40,6 +41,7 @@ public class SnakeMovement : MonoBehaviour
         mainBody = GetComponent<Rigidbody>();
         mainBody.position = spawnPos.position; //--
         Debug.Log("pos main " + mainBody.position);
+        reset = direction;
         InitSnakeParts();
         InitPlayer();
         headBody = BodyParts[0];
@@ -59,6 +61,7 @@ public class SnakeMovement : MonoBehaviour
         if (move)
         {
             move = false;
+            CheckWall();
             Move();
         };
     }
@@ -94,6 +97,45 @@ public class SnakeMovement : MonoBehaviour
             default:
                 break;
         }
+    }
+    void CheckWall()
+    {
+        switch (direction)
+        {
+            case PlayerDirection.RIGHT:
+                Debug.DrawRay(transform.position, Vector3.right * stepLenght, Color.blue, 3);
+                colliderHitByRaycast = Physics.Raycast(transform.position, Vector3.right, out hit, stepLenght);
+                break;
+            case PlayerDirection.LEFT:
+                Debug.DrawRay(transform.position, Vector3.left * stepLenght, Color.blue, 3);
+                colliderHitByRaycast = Physics.Raycast(transform.position, Vector3.left, out hit, stepLenght);
+                break;
+            case PlayerDirection.DOWN:
+                Debug.DrawRay(transform.position, Vector3.back * stepLenght, Color.blue, 3);
+                colliderHitByRaycast = Physics.Raycast(transform.position, Vector3.back, out hit, stepLenght);
+                break;
+            case PlayerDirection.UP:
+                Debug.DrawRay(transform.position, Vector3.forward * stepLenght, Color.blue, 3);
+                colliderHitByRaycast = Physics.Raycast(transform.position, Vector3.forward, out hit, stepLenght);
+                break;
+            default:
+                Debug.DrawRay(transform.position, Vector3.forward * stepLenght * 3, Color.blue, 3);
+                break;
+        }
+        if (colliderHitByRaycast && !hit.collider.isTrigger)
+        {
+
+            if (direction == PlayerDirection.DOWN || direction == PlayerDirection.UP)
+            {
+                direction = Random.Range(0, 2) == 0 ? PlayerDirection.RIGHT : PlayerDirection.LEFT;    
+            }
+            else if (direction == PlayerDirection.LEFT || direction == PlayerDirection.RIGHT)
+            {
+                direction = Random.Range(0, 2) == 0 ? PlayerDirection.UP : PlayerDirection.DOWN;   
+            }
+            CheckWall();
+        }
+
     }
     void Move()
     {
@@ -136,7 +178,6 @@ public class SnakeMovement : MonoBehaviour
       
     public void SetDirection(PlayerDirection dir)
     {
-        Debug.Log("1 Dir: " + direction);
         
         // The snake cannot move to the opposite way directly
         if (dir == PlayerDirection.UP && direction == PlayerDirection.DOWN ||
@@ -149,8 +190,7 @@ public class SnakeMovement : MonoBehaviour
         if (ChangeDir(dir))
         {
             direction = dir;//
-            Debug.Log("2 Dir: " + direction);
-        }
+        }  
         
         ForceMove();
     } 
@@ -163,28 +203,26 @@ public class SnakeMovement : MonoBehaviour
 
     private void OnTriggerEnter(Collider target)
     {
-        if (target.tag == Tags.FRUIT)
-        {
-            target.gameObject.SetActive(false);
-            createBodyPart = true;
-        }
-
-        //switch (target.tag)
-        //{
-        //    case Tags.FRUIT:
-        //        target.gameObject.SetActive(false);
-        //        createBodyPart = true;
-        //        break;
-        //    case Tags.GHOST:
-        //        break;
-        //    case Tags.BOX:
-        //    case Tags.WALL:
-                        
-
-        //    default:
-        //        break;
-        //}
-
+       switch (target.tag)
+       {
+            case Tags.FRUIT:
+                target.gameObject.SetActive(false);
+                createBodyPart = true;
+                break;
+             case Tags.GHOST:
+                direction=reset;
+                BodyParts[BodyParts.Count - 1].gameObject.SetActive(false);
+                BodyParts.RemoveAt(BodyParts.Count - 1);
+                if (BodyParts.Count > 2)
+                {
+                    mainBody.position = spawnPos.position; //-
+                    InitSnakeParts();
+                    InitPlayer();
+                }
+                break;
+            default:
+                break;
+       }
     }
     bool ChangeDir(PlayerDirection direction)
     {
@@ -193,22 +231,18 @@ public class SnakeMovement : MonoBehaviour
             case PlayerDirection.RIGHT:
                 Debug.DrawRay(transform.position, Vector3.right * stepLenght, Color.red, 3);
                 colliderHitByRaycast = Physics.Raycast(transform.position, Vector3.right, out hit, stepLenght);
-                Debug.Log("Pew derecha");
                 break;
             case PlayerDirection.LEFT:
                 Debug.DrawRay(transform.position, Vector3.left * stepLenght, Color.red, 3);
                 colliderHitByRaycast = Physics.Raycast(transform.position, Vector3.left, out hit, stepLenght);
-                Debug.Log("Pew izq");
                 break;
             case PlayerDirection.DOWN:
                 Debug.DrawRay(transform.position, Vector3.back * stepLenght, Color.red, 3);
                 colliderHitByRaycast = Physics.Raycast(transform.position, Vector3.back, out hit, stepLenght);
-                Debug.Log("Pew abajo");
                 break;
             case PlayerDirection.UP:
                 Debug.DrawRay(transform.position, Vector3.forward * stepLenght, Color.red, 3);
                 colliderHitByRaycast = Physics.Raycast(transform.position, Vector3.forward, out hit, stepLenght);
-                Debug.Log("Pew arriba");
                 break;
             default:
                 Debug.DrawRay(transform.position, Vector3.forward * stepLenght * 3, Color.blue, 3);

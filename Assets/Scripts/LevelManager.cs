@@ -56,7 +56,7 @@ public class LevelManager : MonoBehaviour
 
     void Update()
     {
-        Debug.Log("1 Frutas cant: " + GameObject.FindGameObjectsWithTag(Tags.FRUIT).Length);
+        //Debug.Log("1 Frutas cant: " + GameObject.FindGameObjectsWithTag(Tags.FRUIT).Length);
         CheckFruits();
        /* CheckLevelPass();
         KeyHacks();*/
@@ -68,7 +68,7 @@ public class LevelManager : MonoBehaviour
         for (int i = 0; i < itemsRequired; i++)
         {
             Fruits.Add(Fruit);
-            Debug.Log("Pool " + Fruits.Count);
+           // Debug.Log("Pool " + Fruits.Count);
         }
     }
     public void PlayLevel(string level)
