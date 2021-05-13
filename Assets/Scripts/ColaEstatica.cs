@@ -15,16 +15,16 @@ public class ColaEstatica
         Cola = new GameObject[size];
     }
 
-    void Enqueue(GameObject obj)
+    public void Enqueue(GameObject obj)
     {
         if (this.size >= count + 1)
         {
             Cola[count++] = obj;
         }
     }
-    Object Dequeue()
+    public GameObject Dequeue()
     {
-        Object dequeue = Cola[0];
+        GameObject dequeue = Cola[0];
         if (count>0)
         {
             for (int i = 0; i < count; i++)

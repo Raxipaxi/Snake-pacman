@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class SnakeMovement : MonoBehaviour
 {
@@ -33,6 +34,9 @@ public class SnakeMovement : MonoBehaviour
     private List<Rigidbody> BodyParts; // Aca reemplazar con TDA de lista enlazada
 
     private bool createBodyPart;
+
+    public UnityEvent OnCherryCollected;
+    public UnityEvent OnGetDamage;
 
     void Awake ()
     {
@@ -206,10 +210,12 @@ public class SnakeMovement : MonoBehaviour
        switch (target.tag)
        {
             case Tags.FRUIT:
+                OnCherryCollected.Invoke();
                 target.gameObject.SetActive(false);
                 createBodyPart = true;
                 break;
              case Tags.GHOST:
+                OnGetDamage.Invoke();
                 direction=reset;
                 BodyParts[BodyParts.Count - 1].gameObject.SetActive(false);
                 BodyParts.RemoveAt(BodyParts.Count - 1);

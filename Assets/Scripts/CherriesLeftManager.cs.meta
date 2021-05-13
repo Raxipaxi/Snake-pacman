@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f06eaa0efae524d4c863476c0e32ca70
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - cherryImage: {fileID: 5340004669136564184, guid: a8991cfe7792c9149b868341452f394c, type: 3}
+  - player: {instanceID: 0}
+  - panel: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
