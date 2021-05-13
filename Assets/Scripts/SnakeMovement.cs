@@ -6,6 +6,10 @@ public class SnakeMovement : MonoBehaviour
 {
 
     public PlayerDirection direction;
+    private  PlayerDirection prevDir;
+    bool colliderHitByRaycast;
+    RaycastHit hit;
+
 
 
     [SerializeField] float frequency = 0.2f;
@@ -51,7 +55,6 @@ public class SnakeMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       // return;//--
         CheckMovFrequency();
         if (move)
         {
@@ -65,7 +68,6 @@ public class SnakeMovement : MonoBehaviour
         BodyParts.Add(tr.GetChild(0).GetComponent<Rigidbody>());
         BodyParts.Add(tr.GetChild(1).GetComponent<Rigidbody>());
         BodyParts.Add(tr.GetChild(2).GetComponent<Rigidbody>());
-   
     }
     void InitPlayer()
     {  // initiate the position of the NODES and tail
@@ -93,7 +95,6 @@ public class SnakeMovement : MonoBehaviour
                 break;
         }
     }
-
     void Move()
     {
         Vector3 dPosition = DeltaPosition[(int)direction]; // gives the direction 
@@ -135,6 +136,8 @@ public class SnakeMovement : MonoBehaviour
       
     public void SetDirection(PlayerDirection dir)
     {
+        Debug.Log("1 Dir: " + direction);
+        
         // The snake cannot move to the opposite way directly
         if (dir == PlayerDirection.UP && direction == PlayerDirection.DOWN ||
             dir == PlayerDirection.DOWN && direction == PlayerDirection.UP ||
@@ -143,7 +146,12 @@ public class SnakeMovement : MonoBehaviour
         {
             return;
         }
-        direction = dir;
+        if (ChangeDir(dir))
+        {
+            direction = dir;//
+            Debug.Log("2 Dir: " + direction);
+        }
+        
         ForceMove();
     } 
     void ForceMove()
@@ -178,5 +186,36 @@ public class SnakeMovement : MonoBehaviour
         //}
 
     }
+    bool ChangeDir(PlayerDirection direction)
+    {
+        switch (direction)
+        {
+            case PlayerDirection.RIGHT:
+                Debug.DrawRay(transform.position, Vector3.right * stepLenght, Color.red, 3);
+                colliderHitByRaycast = Physics.Raycast(transform.position, Vector3.right, out hit, stepLenght);
+                Debug.Log("Pew derecha");
+                break;
+            case PlayerDirection.LEFT:
+                Debug.DrawRay(transform.position, Vector3.left * stepLenght, Color.red, 3);
+                colliderHitByRaycast = Physics.Raycast(transform.position, Vector3.left, out hit, stepLenght);
+                Debug.Log("Pew izq");
+                break;
+            case PlayerDirection.DOWN:
+                Debug.DrawRay(transform.position, Vector3.back * stepLenght, Color.red, 3);
+                colliderHitByRaycast = Physics.Raycast(transform.position, Vector3.back, out hit, stepLenght);
+                Debug.Log("Pew abajo");
+                break;
+            case PlayerDirection.UP:
+                Debug.DrawRay(transform.position, Vector3.forward * stepLenght, Color.red, 3);
+                colliderHitByRaycast = Physics.Raycast(transform.position, Vector3.forward, out hit, stepLenght);
+                Debug.Log("Pew arriba");
+                break;
+            default:
+                Debug.DrawRay(transform.position, Vector3.forward * stepLenght * 3, Color.blue, 3);
+                break;
+        }
+        return !colliderHitByRaycast || hit.collider.isTrigger;
+    }
+
 
 }

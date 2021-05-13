@@ -10,6 +10,7 @@ TagManager:
   - NotMoveable
   - Fruit
   - Ghost
+  - Box
   layers:
   - Default
   - TransparentFX

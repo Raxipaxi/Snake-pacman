@@ -306,6 +306,7 @@ MonoBehaviour:
   direction: 1
   frequency: 0.6
   stepLenght: 7.5
+  spawnPos: {fileID: 0}
   bodyPartPrefab: {fileID: 4621276184733141739, guid: 81c3c3cf42b8a3b4ba6b4ae7dda45d44, type: 3}
 --- !u!114 &4895117423637590721
 MonoBehaviour:

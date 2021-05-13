@@ -84,7 +84,7 @@ public class LevelManager : MonoBehaviour
     {
         if (Fruits.Count>0 && GameObject.FindGameObjectsWithTag(Tags.FRUIT).Length == 0)
         {
-            DestroyObject(GameObject.FindGameObjectWithTag(Tags.FRUIT).GetComponent(GameObject));
+            //DestroyObject(GameObject.FindGameObjectWithTag(Tags.FRUIT).GetComponent(GameObject));
             SpawnFruit();
             Fruits.RemoveAt(Fruits.Count - 1);
             itemsRequired--;
