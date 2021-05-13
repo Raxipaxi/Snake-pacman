@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7166,67 +7166,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 1850462315688071848, guid: 6b21e08a63a65214abc321b2fbf64f39, type: 3}
---- !u!1001 &6897738851628488228
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6707523015256893166, guid: 5ff8481a744256d4b972dd202c813ff1, type: 3}
-      propertyPath: spawnPos
-      value: 
-      objectReference: {fileID: 83751480}
-    - target: {fileID: 6897738853045510442, guid: 5ff8481a744256d4b972dd202c813ff1, type: 3}
-      propertyPath: m_Name
-      value: Snake
-      objectReference: {fileID: 0}
-    - target: {fileID: 6897738853045510452, guid: 5ff8481a744256d4b972dd202c813ff1, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6897738853045510452, guid: 5ff8481a744256d4b972dd202c813ff1, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 7.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6897738853045510452, guid: 5ff8481a744256d4b972dd202c813ff1, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.78
-      objectReference: {fileID: 0}
-    - target: {fileID: 6897738853045510452, guid: 5ff8481a744256d4b972dd202c813ff1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -9.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6897738853045510452, guid: 5ff8481a744256d4b972dd202c813ff1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6897738853045510452, guid: 5ff8481a744256d4b972dd202c813ff1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6897738853045510452, guid: 5ff8481a744256d4b972dd202c813ff1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6897738853045510452, guid: 5ff8481a744256d4b972dd202c813ff1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6897738853045510452, guid: 5ff8481a744256d4b972dd202c813ff1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6897738853045510452, guid: 5ff8481a744256d4b972dd202c813ff1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6897738853045510452, guid: 5ff8481a744256d4b972dd202c813ff1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5ff8481a744256d4b972dd202c813ff1, type: 3}
 --- !u!64 &7151909305291842678
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7282,6 +7221,67 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1001 &7794608366257770110
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7794608366459309889, guid: 5e31dc98807dc504184d8947a2c43b1b, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7794608366459309889, guid: 5e31dc98807dc504184d8947a2c43b1b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7794608366459309889, guid: 5e31dc98807dc504184d8947a2c43b1b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 7794608366459309889, guid: 5e31dc98807dc504184d8947a2c43b1b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7794608366459309889, guid: 5e31dc98807dc504184d8947a2c43b1b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7794608366459309889, guid: 5e31dc98807dc504184d8947a2c43b1b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7794608366459309889, guid: 5e31dc98807dc504184d8947a2c43b1b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7794608366459309889, guid: 5e31dc98807dc504184d8947a2c43b1b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7794608366459309889, guid: 5e31dc98807dc504184d8947a2c43b1b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7794608366459309889, guid: 5e31dc98807dc504184d8947a2c43b1b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7794608366459309889, guid: 5e31dc98807dc504184d8947a2c43b1b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7794608366459309890, guid: 5e31dc98807dc504184d8947a2c43b1b, type: 3}
+      propertyPath: spawnPos
+      value: 
+      objectReference: {fileID: 83751480}
+    - target: {fileID: 7794608366459309895, guid: 5e31dc98807dc504184d8947a2c43b1b, type: 3}
+      propertyPath: m_Name
+      value: Snake
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5e31dc98807dc504184d8947a2c43b1b, type: 3}
 --- !u!1 &8112991463630978510
 GameObject:
   m_ObjectHideFlags: 0

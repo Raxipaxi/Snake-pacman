@@ -81,20 +81,22 @@ public class SnakeMovement : MonoBehaviour
         switch (direction)
         {
             case PlayerDirection.LEFT:
+                BodyParts[0].position = mainBody.position;
                 BodyParts[1].position = BodyParts[0].position + new Vector3(Metrics.NODEHEADDIST, 0f, 0f);
                 BodyParts[2].position = BodyParts[1].position + new Vector3(Metrics.NODESIZE, 0f, 0f);
                 break;
             case PlayerDirection.UP:
                 BodyParts[0].position = mainBody.position;//--
-                Debug.Log("Pos 0 " + BodyParts[0].position);
                 BodyParts[1].position = BodyParts[0].position - new Vector3(0f, 0f, Metrics.NODEHEADDIST);
                 BodyParts[2].position = BodyParts[1].position - new Vector3(0f, 0f, Metrics.NODESIZE);
                 break;
             case PlayerDirection.RIGHT:
+                BodyParts[0].position = mainBody.position;
                 BodyParts[1].position = BodyParts[0].position - new Vector3(Metrics.NODEHEADDIST, 0f, 0f);
                 BodyParts[2].position = BodyParts[1].position - new Vector3(Metrics.NODESIZE, 0f, 0f);
                 break;
             case PlayerDirection.DOWN:
+                BodyParts[0].position = mainBody.position;
                 BodyParts[1].position = BodyParts[0].position + new Vector3(0f, 0f, Metrics.NODEHEADDIST);
                 BodyParts[2].position = BodyParts[1].position + new Vector3(0f, 0f, Metrics.NODESIZE);
                 break;
