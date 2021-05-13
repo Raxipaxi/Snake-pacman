@@ -195,10 +195,13 @@ public class SnakeMovement : MonoBehaviour
         }
         if (ChangeDir(dir))
         {
+            prevDir = direction;
             direction = dir;//
-        }  
-        
-        ForceMove();
+        }
+        if (prevDir!=direction)
+        {
+            ForceMove();
+        }
     } 
     void ForceMove()
     {
