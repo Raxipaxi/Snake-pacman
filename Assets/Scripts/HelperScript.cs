@@ -77,7 +77,14 @@ public class Metrics
     public static float NODEHEADDIST = 7.5f;
     public static float NODESIZE = 7.5f;
 }
-
+public class GridSize
+{
+    public static float MINX = -52.5f;
+    public static float MAXX = 52.5f;
+    //Z: -52.5   52.5
+    public static float MINZ = -52.5f;
+    public static float MAXZ = 52.5f;
+}
 public enum PlayerDirection
 {   // Movements allowed
     LEFT = 0,

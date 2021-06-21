@@ -23,12 +23,12 @@ public class LevelManager : MonoBehaviour
 
     //public static LevelManager instance;
     //Level limits
-    //X: -52.5 - 52.5
-    private float minX = -52.5f;
-    private float maxX = 52.5f;
-    //Z: -52.5   52.5
-    private float minZ = -52.5f;
-    private float maxZ = 52.5f;
+    ////X: -52.5 - 52.5
+    //private float minX = -52.5f;
+    //private float maxX = 52.5f;
+    ////Z: -52.5   52.5
+    //private float minZ = -52.5f;
+    //private float maxZ = 52.5f;
 
     private float fruitY = 3.5f;
 
