@@ -10,8 +10,8 @@ public class GhostMovement : MonoBehaviour
     Vector3 snakePos;
     [SerializeField] float frequency = 0.2f;
     private float counter;
-    Vector3[] enemyPath;
-    int[] pathEtiq;
+    public Vector3[] enemyPath;
+    public int[] pathEtiq;
     int indexStep;
 
     // Start is called before the first frame update
@@ -36,7 +36,7 @@ public class GhostMovement : MonoBehaviour
 
             string pattern = ",";
             //print("String de nodos : " + Dijkstra.nodos[destiny]);
-            string[] Sway = Regex.Split(Dijkstra.nodos[destiny], pattern);
+            string[] Sway = Regex.Split(Dijkstra.nodos[destiny-1], pattern); 
             int[] way = new int[Sway.Length];
             enemyPath = new Vector3[way.Length];
             pathEtiq = new int[way.Length];
@@ -84,7 +84,7 @@ public class GhostMovement : MonoBehaviour
         if (counter > frequency)
         {
 
-            if (indexStep < enemyPath.Length)
+            if (indexStep < enemyPath.Length-1)
             {
                 //print("Nodo " + pathEtiq[indexStep] + " " + enemyPath[indexStep]);
                 currentPos = enemyPath[indexStep];
@@ -94,5 +94,6 @@ public class GhostMovement : MonoBehaviour
             }
 
         }
+
     }
 }

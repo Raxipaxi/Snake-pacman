@@ -2720,7 +2720,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   grid: {fileID: 1664860339}
   snakePlayer: {fileID: 1796984079}
-  frequency: 0.5
+  frequency: 0.6
+  enemyPath: []
+  pathEtiq: 
 --- !u!1 &371750489 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6b21e08a63a65214abc321b2fbf64f39, type: 3}
@@ -12086,7 +12088,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1664860335}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a6fb2bdf0b14294a98cc431e98eb061, type: 3}
   m_Name: 
@@ -12119,7 +12121,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1664860335}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0a48cc93bbaa7d44e8049a915e5c5105, type: 3}
   m_Name: 
@@ -12222,7 +12224,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   grid: {fileID: 1664860339}
   snakePlayer: {fileID: 1796984079}
-  frequency: 0.5
+  frequency: 0.4
+  enemyPath: []
+  pathEtiq: 
 --- !u!1001 &1706008433
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14138,14 +14142,6 @@ PrefabInstance:
     - target: {fileID: 3584941196235795943, guid: 3a14772ddcd94914693cab1ad3e7a2e1, type: 3}
       propertyPath: m_Name
       value: Graph lvl2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4566072712550135832, guid: 3a14772ddcd94914693cab1ad3e7a2e1, type: 3}
-      propertyPath: IsWall
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4566072712550135913, guid: 3a14772ddcd94914693cab1ad3e7a2e1, type: 3}
-      propertyPath: IsWall
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5643090158172874067, guid: 3a14772ddcd94914693cab1ad3e7a2e1, type: 3}
       propertyPath: m_RootOrder
