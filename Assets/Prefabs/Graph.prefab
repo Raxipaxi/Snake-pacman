@@ -108,6 +108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -118,7 +119,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &98702359031777502
 GameObject:
   m_ObjectHideFlags: 0
@@ -227,6 +228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -237,7 +239,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &102337416678132869
 GameObject:
   m_ObjectHideFlags: 0
@@ -346,6 +348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -356,7 +359,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &104054179314847954
 GameObject:
   m_ObjectHideFlags: 0
@@ -465,6 +468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -475,7 +479,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &126342499636097673
 GameObject:
   m_ObjectHideFlags: 0
@@ -584,6 +588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -594,7 +599,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &147333496733332530
 GameObject:
   m_ObjectHideFlags: 0
@@ -703,6 +708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -713,7 +719,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &198106328584509411
 GameObject:
   m_ObjectHideFlags: 0
@@ -822,6 +828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -832,7 +839,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &266987309868026902
 GameObject:
   m_ObjectHideFlags: 0
@@ -941,6 +948,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -951,7 +959,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &289072826386172231
 GameObject:
   m_ObjectHideFlags: 0
@@ -1060,6 +1068,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -1070,7 +1079,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &315345876560428490
 GameObject:
   m_ObjectHideFlags: 0
@@ -1179,6 +1188,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -1189,7 +1199,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &318611210299353027
 GameObject:
   m_ObjectHideFlags: 0
@@ -1298,6 +1308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -1308,7 +1319,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &340542904334198360
 GameObject:
   m_ObjectHideFlags: 0
@@ -1417,6 +1428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -1427,7 +1439,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &362550839125048364
 GameObject:
   m_ObjectHideFlags: 0
@@ -1442,7 +1454,7 @@ GameObject:
   - component: {fileID: 9099802823016560828}
   - component: {fileID: 8294522566959458999}
   m_Layer: 0
-  m_Name: 1 1 (2)
+  m_Name: 31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1536,6 +1548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -1546,7 +1559,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &379639599145486198
 GameObject:
   m_ObjectHideFlags: 0
@@ -1655,6 +1668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -1665,7 +1679,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &513028050561099358
 GameObject:
   m_ObjectHideFlags: 0
@@ -1774,6 +1788,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -1784,7 +1799,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &536166980956043119
 GameObject:
   m_ObjectHideFlags: 0
@@ -1893,6 +1908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -1903,7 +1919,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &545240624799791086
 GameObject:
   m_ObjectHideFlags: 0
@@ -2012,6 +2028,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -2022,7 +2039,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &568480365167114050
 GameObject:
   m_ObjectHideFlags: 0
@@ -2131,6 +2148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -2141,7 +2159,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &615154909598127988
 GameObject:
   m_ObjectHideFlags: 0
@@ -2250,6 +2268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -2260,7 +2279,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &642236577851032620
 GameObject:
   m_ObjectHideFlags: 0
@@ -2369,6 +2388,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -2379,7 +2399,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &695993513199485414
 GameObject:
   m_ObjectHideFlags: 0
@@ -2488,6 +2508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -2498,7 +2519,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &739371776165682667
 GameObject:
   m_ObjectHideFlags: 0
@@ -2607,6 +2628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -2617,7 +2639,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &828545120424267300
 GameObject:
   m_ObjectHideFlags: 0
@@ -2726,6 +2748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -2736,7 +2759,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &877224120357221944
 GameObject:
   m_ObjectHideFlags: 0
@@ -2751,7 +2774,7 @@ GameObject:
   - component: {fileID: 6641531109704321797}
   - component: {fileID: 8294522566959458965}
   m_Layer: 0
-  m_Name: 1 1 (4)
+  m_Name: 61
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2845,6 +2868,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -2855,7 +2879,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &888548886615300730
 GameObject:
   m_ObjectHideFlags: 0
@@ -2964,6 +2988,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -2974,7 +2999,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &888988340288735575
 GameObject:
   m_ObjectHideFlags: 0
@@ -3003,7 +3028,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 888988340288735575}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.54, y: 0, z: -7.5}
+  m_LocalPosition: {x: 1.5, y: 0, z: -7.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 149087441823102912}
@@ -3083,6 +3108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -3093,7 +3119,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &912406240667164501
 GameObject:
   m_ObjectHideFlags: 0
@@ -3202,6 +3228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -3212,7 +3239,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &1017312023886017690
 GameObject:
   m_ObjectHideFlags: 0
@@ -3321,6 +3348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -3331,7 +3359,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &1027933069047269853
 GameObject:
   m_ObjectHideFlags: 0
@@ -3440,6 +3468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -3450,7 +3479,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &1031001442500586331
 GameObject:
   m_ObjectHideFlags: 0
@@ -3559,6 +3588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -3569,7 +3599,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &1109691712283846719
 GameObject:
   m_ObjectHideFlags: 0
@@ -3678,6 +3708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -3688,7 +3719,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &1132535655202341712
 GameObject:
   m_ObjectHideFlags: 0
@@ -3797,6 +3828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -3807,7 +3839,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &1134120073561382033
 GameObject:
   m_ObjectHideFlags: 0
@@ -3916,6 +3948,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -3926,7 +3959,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &1135112160559359743
 GameObject:
   m_ObjectHideFlags: 0
@@ -4035,6 +4068,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -4045,7 +4079,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &1136891891678087438
 GameObject:
   m_ObjectHideFlags: 0
@@ -4154,6 +4188,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -4164,7 +4199,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &1193169164275185480
 GameObject:
   m_ObjectHideFlags: 0
@@ -4273,6 +4308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -4283,7 +4319,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &1369432243124993872
 GameObject:
   m_ObjectHideFlags: 0
@@ -4392,6 +4428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -4402,7 +4439,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &1391140524808642030
 GameObject:
   m_ObjectHideFlags: 0
@@ -4511,6 +4548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -4521,7 +4559,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &1404526189312021029
 GameObject:
   m_ObjectHideFlags: 0
@@ -4550,7 +4588,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1404526189312021029}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.54, y: 0, z: 3}
+  m_LocalPosition: {x: 1.5, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 149087441823102912}
@@ -4630,6 +4668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -4640,7 +4679,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &1414626345253498979
 GameObject:
   m_ObjectHideFlags: 0
@@ -4749,6 +4788,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -4759,7 +4799,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &1516874437771421031
 GameObject:
   m_ObjectHideFlags: 0
@@ -4868,6 +4908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -4878,7 +4919,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &1526217510547452006
 GameObject:
   m_ObjectHideFlags: 0
@@ -4893,7 +4934,7 @@ GameObject:
   - component: {fileID: 363480633333233818}
   - component: {fileID: 8294522566959458888}
   m_Layer: 0
-  m_Name: 1 1 (1)
+  m_Name: 16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4987,6 +5028,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -4997,7 +5039,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &1527330606251641409
 GameObject:
   m_ObjectHideFlags: 0
@@ -5106,6 +5148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -5116,7 +5159,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &1550322305742073136
 GameObject:
   m_ObjectHideFlags: 0
@@ -5225,6 +5268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -5235,7 +5279,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &1558212357863644090
 GameObject:
   m_ObjectHideFlags: 0
@@ -5344,6 +5388,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -5354,7 +5399,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &1560877921371053636
 GameObject:
   m_ObjectHideFlags: 0
@@ -5463,6 +5508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -5473,7 +5519,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &1561381089711668647
 GameObject:
   m_ObjectHideFlags: 0
@@ -5582,6 +5628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -5592,7 +5639,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &1573230543062826081
 GameObject:
   m_ObjectHideFlags: 0
@@ -5701,6 +5748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -5711,7 +5759,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &1624850276290360681
 GameObject:
   m_ObjectHideFlags: 0
@@ -5820,6 +5868,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -5830,7 +5879,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &1694097056046695921
 GameObject:
   m_ObjectHideFlags: 0
@@ -5845,7 +5894,7 @@ GameObject:
   - component: {fileID: 8180537655926183831}
   - component: {fileID: 8294522566959459025}
   m_Layer: 0
-  m_Name: 1 1 (8)
+  m_Name: 121
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5939,6 +5988,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -5949,7 +5999,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &1717660115316913622
 GameObject:
   m_ObjectHideFlags: 0
@@ -6058,6 +6108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -6068,7 +6119,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &1729071584746239466
 GameObject:
   m_ObjectHideFlags: 0
@@ -6177,6 +6228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -6187,7 +6239,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &1730778597984761333
 GameObject:
   m_ObjectHideFlags: 0
@@ -6296,6 +6348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -6306,7 +6359,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &1819035237636901321
 GameObject:
   m_ObjectHideFlags: 0
@@ -6415,6 +6468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -6425,7 +6479,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &1840730512626847980
 GameObject:
   m_ObjectHideFlags: 0
@@ -6534,6 +6588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -6544,7 +6599,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &1854195854945497826
 GameObject:
   m_ObjectHideFlags: 0
@@ -6573,7 +6628,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1854195854945497826}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.54, y: 0, z: -3}
+  m_LocalPosition: {x: 1.5, y: 0, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 149087441823102912}
@@ -6653,6 +6708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -6663,7 +6719,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &1880056856691193841
 GameObject:
   m_ObjectHideFlags: 0
@@ -6692,7 +6748,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1880056856691193841}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.54, y: 0, z: 9}
+  m_LocalPosition: {x: 1.5, y: 0, z: 9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 149087441823102912}
@@ -6772,6 +6828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -6782,7 +6839,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &1936194132853467572
 GameObject:
   m_ObjectHideFlags: 0
@@ -6891,6 +6948,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -6901,7 +6959,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &1992083249782969829
 GameObject:
   m_ObjectHideFlags: 0
@@ -7010,6 +7068,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -7020,7 +7079,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &1997952887199248836
 GameObject:
   m_ObjectHideFlags: 0
@@ -7129,6 +7188,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -7139,7 +7199,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &2010774260171434391
 GameObject:
   m_ObjectHideFlags: 0
@@ -7248,6 +7308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -7258,7 +7319,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &2067874184160481822
 GameObject:
   m_ObjectHideFlags: 0
@@ -7367,6 +7428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -7377,7 +7439,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &2105192524743189062
 GameObject:
   m_ObjectHideFlags: 0
@@ -7486,6 +7548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -7496,7 +7559,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &2125225541866266448
 GameObject:
   m_ObjectHideFlags: 0
@@ -7605,6 +7668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -7615,7 +7679,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &2304439659982373860
 GameObject:
   m_ObjectHideFlags: 0
@@ -7724,6 +7788,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -7734,7 +7799,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &2317978363245232164
 GameObject:
   m_ObjectHideFlags: 0
@@ -7843,6 +7908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -7853,7 +7919,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &2389389903700434997
 GameObject:
   m_ObjectHideFlags: 0
@@ -7962,6 +8028,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -7972,7 +8039,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &2502223338631390657
 GameObject:
   m_ObjectHideFlags: 0
@@ -8081,6 +8148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -8091,7 +8159,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &2503736062347852288
 GameObject:
   m_ObjectHideFlags: 0
@@ -8120,7 +8188,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2503736062347852288}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.54, y: 0, z: 1.5}
+  m_LocalPosition: {x: 1.5, y: 0, z: 1.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 149087441823102912}
@@ -8200,6 +8268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -8210,7 +8279,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &2595783223562242668
 GameObject:
   m_ObjectHideFlags: 0
@@ -8319,6 +8388,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -8329,7 +8399,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &2662135101241116723
 GameObject:
   m_ObjectHideFlags: 0
@@ -8438,6 +8508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -8448,7 +8519,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &2716284443521871757
 GameObject:
   m_ObjectHideFlags: 0
@@ -8557,6 +8628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -8567,7 +8639,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &2818192928159939873
 GameObject:
   m_ObjectHideFlags: 0
@@ -8676,6 +8748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -8686,7 +8759,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &2822337686201376780
 GameObject:
   m_ObjectHideFlags: 0
@@ -8795,6 +8868,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -8805,7 +8879,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &2851962723367991462
 GameObject:
   m_ObjectHideFlags: 0
@@ -8914,6 +8988,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -8924,7 +8999,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &2853688044756198622
 GameObject:
   m_ObjectHideFlags: 0
@@ -9033,6 +9108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -9043,7 +9119,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &2908048232334629859
 GameObject:
   m_ObjectHideFlags: 0
@@ -9152,6 +9228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -9162,7 +9239,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &2916919554903070814
 GameObject:
   m_ObjectHideFlags: 0
@@ -9271,6 +9348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -9281,7 +9359,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &2956909514282130883
 GameObject:
   m_ObjectHideFlags: 0
@@ -9390,6 +9468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -9400,7 +9479,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &2959076425055284815
 GameObject:
   m_ObjectHideFlags: 0
@@ -9509,6 +9588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -9519,7 +9599,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &3069860303055113246
 GameObject:
   m_ObjectHideFlags: 0
@@ -9628,6 +9708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -9638,7 +9719,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &3089533969408636006
 GameObject:
   m_ObjectHideFlags: 0
@@ -9747,6 +9828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -9757,7 +9839,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &3098797528062357273
 GameObject:
   m_ObjectHideFlags: 0
@@ -9866,6 +9948,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -9876,7 +9959,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &3289920517530538436
 GameObject:
   m_ObjectHideFlags: 0
@@ -9985,6 +10068,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -9995,7 +10079,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &3305340458447386950
 GameObject:
   m_ObjectHideFlags: 0
@@ -10104,6 +10188,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -10114,7 +10199,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &3331147422638340526
 GameObject:
   m_ObjectHideFlags: 0
@@ -10223,6 +10308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -10233,7 +10319,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &3361815672214617652
 GameObject:
   m_ObjectHideFlags: 0
@@ -10342,6 +10428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -10352,7 +10439,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &3369418358814867818
 GameObject:
   m_ObjectHideFlags: 0
@@ -10461,6 +10548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -10471,7 +10559,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &3396362518789403833
 GameObject:
   m_ObjectHideFlags: 0
@@ -10580,6 +10668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -10590,7 +10679,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &3514193713754778297
 GameObject:
   m_ObjectHideFlags: 0
@@ -10699,6 +10788,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -10709,7 +10799,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &3619202287527644751
 GameObject:
   m_ObjectHideFlags: 0
@@ -10818,6 +10908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -10828,7 +10919,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &3653449903726972539
 GameObject:
   m_ObjectHideFlags: 0
@@ -10843,7 +10934,7 @@ GameObject:
   - component: {fileID: 558137276830712058}
   - component: {fileID: 8294522566959458982}
   m_Layer: 0
-  m_Name: 1 1 (3)
+  m_Name: 46
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10937,6 +11028,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -10947,7 +11039,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &3722288046066361012
 GameObject:
   m_ObjectHideFlags: 0
@@ -11056,6 +11148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -11066,7 +11159,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &3812497936780759544
 GameObject:
   m_ObjectHideFlags: 0
@@ -11175,6 +11268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -11185,7 +11279,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &3840373368387484632
 GameObject:
   m_ObjectHideFlags: 0
@@ -11214,7 +11308,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3840373368387484632}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.54, y: 0, z: -10.5}
+  m_LocalPosition: {x: 1.5, y: 0, z: -10.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 149087441823102912}
@@ -11294,6 +11388,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -11304,7 +11399,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &3922831753902932538
 GameObject:
   m_ObjectHideFlags: 0
@@ -11413,6 +11508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -11423,7 +11519,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &4038844227565816006
 GameObject:
   m_ObjectHideFlags: 0
@@ -11532,6 +11628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -11542,7 +11639,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &4049261090922685344
 GameObject:
   m_ObjectHideFlags: 0
@@ -11651,6 +11748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -11661,7 +11759,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &4049331901502671317
 GameObject:
   m_ObjectHideFlags: 0
@@ -11770,6 +11868,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -11780,7 +11879,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &4052076018448947141
 GameObject:
   m_ObjectHideFlags: 0
@@ -11889,6 +11988,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -11899,7 +11999,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &4055840813545079870
 GameObject:
   m_ObjectHideFlags: 0
@@ -12008,6 +12108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -12018,7 +12119,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &4092677593642222011
 GameObject:
   m_ObjectHideFlags: 0
@@ -12127,6 +12228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -12137,7 +12239,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &4168465554692162877
 GameObject:
   m_ObjectHideFlags: 0
@@ -12166,7 +12268,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4168465554692162877}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.54, y: 0, z: -4.5}
+  m_LocalPosition: {x: 1.5, y: 0, z: -4.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 149087441823102912}
@@ -12246,6 +12348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -12256,7 +12359,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &4194956038240626588
 GameObject:
   m_ObjectHideFlags: 0
@@ -12365,6 +12468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -12375,7 +12479,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &4276766129859140864
 GameObject:
   m_ObjectHideFlags: 0
@@ -12484,6 +12588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -12494,7 +12599,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &4280757634539438455
 GameObject:
   m_ObjectHideFlags: 0
@@ -12603,6 +12708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -12613,7 +12719,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &4311116282547969442
 GameObject:
   m_ObjectHideFlags: 0
@@ -12722,6 +12828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -12732,7 +12839,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &4366876163643864228
 GameObject:
   m_ObjectHideFlags: 0
@@ -12841,6 +12948,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -12851,7 +12959,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &4372725684078215276
 GameObject:
   m_ObjectHideFlags: 0
@@ -12960,6 +13068,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -12970,7 +13079,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &4401525074189909874
 GameObject:
   m_ObjectHideFlags: 0
@@ -13079,6 +13188,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -13089,7 +13199,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &4420005148648382060
 GameObject:
   m_ObjectHideFlags: 0
@@ -13198,6 +13308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -13208,7 +13319,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &4450737204041134751
 GameObject:
   m_ObjectHideFlags: 0
@@ -13317,6 +13428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -13327,7 +13439,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &4473171000490989186
 GameObject:
   m_ObjectHideFlags: 0
@@ -13436,6 +13548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -13446,7 +13559,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &4520268969666460538
 GameObject:
   m_ObjectHideFlags: 0
@@ -13555,6 +13668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -13565,7 +13679,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &4521904186562743633
 GameObject:
   m_ObjectHideFlags: 0
@@ -13674,6 +13788,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -13684,7 +13799,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &4526618928221368088
 GameObject:
   m_ObjectHideFlags: 0
@@ -13793,6 +13908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -13803,7 +13919,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &4554702548737872014
 GameObject:
   m_ObjectHideFlags: 0
@@ -13912,6 +14028,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -13922,7 +14039,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &4566354838871462722
 GameObject:
   m_ObjectHideFlags: 0
@@ -14031,6 +14148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -14041,7 +14159,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &4600447524990585965
 GameObject:
   m_ObjectHideFlags: 0
@@ -14150,6 +14268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -14160,7 +14279,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &4614122453062736700
 GameObject:
   m_ObjectHideFlags: 0
@@ -14175,7 +14294,7 @@ GameObject:
   - component: {fileID: 478886547501556160}
   - component: {fileID: 8294522566959459049}
   m_Layer: 0
-  m_Name: 1 8 (7)
+  m_Name: 113
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14269,6 +14388,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -14388,6 +14508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -14398,7 +14519,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &4631535166039434560
 GameObject:
   m_ObjectHideFlags: 0
@@ -14507,6 +14628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -14517,7 +14639,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &4634435546651865596
 GameObject:
   m_ObjectHideFlags: 0
@@ -14626,6 +14748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -14636,7 +14759,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &4702380541719739712
 GameObject:
   m_ObjectHideFlags: 0
@@ -14745,6 +14868,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -14755,7 +14879,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &4720934839782750177
 GameObject:
   m_ObjectHideFlags: 0
@@ -14864,6 +14988,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -14874,7 +14999,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &4722409259908082629
 GameObject:
   m_ObjectHideFlags: 0
@@ -14983,6 +15108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -14993,7 +15119,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &4728900410987508618
 GameObject:
   m_ObjectHideFlags: 0
@@ -15102,6 +15228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -15112,7 +15239,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &4748198105009190678
 GameObject:
   m_ObjectHideFlags: 0
@@ -15221,6 +15348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -15231,7 +15359,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &4749997049060588021
 GameObject:
   m_ObjectHideFlags: 0
@@ -15340,6 +15468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -15350,7 +15479,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &4751814840818804579
 GameObject:
   m_ObjectHideFlags: 0
@@ -15459,6 +15588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -15469,7 +15599,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &4785464813380883757
 GameObject:
   m_ObjectHideFlags: 0
@@ -15578,6 +15708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -15588,7 +15719,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &4794593653178344982
 GameObject:
   m_ObjectHideFlags: 0
@@ -15697,6 +15828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -15707,7 +15839,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &4838587559457922362
 GameObject:
   m_ObjectHideFlags: 0
@@ -15816,6 +15948,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -15826,7 +15959,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &4877234778072554018
 GameObject:
   m_ObjectHideFlags: 0
@@ -15935,6 +16068,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -15945,7 +16079,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &5129532362752985676
 GameObject:
   m_ObjectHideFlags: 0
@@ -16054,6 +16188,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -16064,7 +16199,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &5191756934268843708
 GameObject:
   m_ObjectHideFlags: 0
@@ -16173,6 +16308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -16183,7 +16319,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &5271920404021574051
 GameObject:
   m_ObjectHideFlags: 0
@@ -16292,6 +16428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -16302,7 +16439,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &5277941507272683747
 GameObject:
   m_ObjectHideFlags: 0
@@ -16411,6 +16548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -16421,7 +16559,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &5403293980088564718
 GameObject:
   m_ObjectHideFlags: 0
@@ -16530,6 +16668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -16540,7 +16679,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &5428700159919078725
 GameObject:
   m_ObjectHideFlags: 0
@@ -16649,6 +16788,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -16659,7 +16799,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &5442481606812484336
 GameObject:
   m_ObjectHideFlags: 0
@@ -16768,6 +16908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -16778,7 +16919,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &5481412285978001766
 GameObject:
   m_ObjectHideFlags: 0
@@ -16887,6 +17028,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -16897,7 +17039,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &5524692686493127580
 GameObject:
   m_ObjectHideFlags: 0
@@ -17006,6 +17148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -17016,7 +17159,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &5537308612986574468
 GameObject:
   m_ObjectHideFlags: 0
@@ -17125,6 +17268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -17135,7 +17279,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &5617751527748641992
 GameObject:
   m_ObjectHideFlags: 0
@@ -17244,6 +17388,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -17254,7 +17399,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &5690621203600648569
 GameObject:
   m_ObjectHideFlags: 0
@@ -17269,7 +17414,7 @@ GameObject:
   - component: {fileID: 2370719448428322292}
   - component: {fileID: 8294522566959458948}
   m_Layer: 0
-  m_Name: 1 1 (5)
+  m_Name: 76
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17363,6 +17508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -17373,7 +17519,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &5704573533946223398
 GameObject:
   m_ObjectHideFlags: 0
@@ -17482,6 +17628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -17492,7 +17639,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &5791902012292371173
 GameObject:
   m_ObjectHideFlags: 0
@@ -17601,6 +17748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -17611,7 +17759,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &5793747241950632352
 GameObject:
   m_ObjectHideFlags: 0
@@ -17720,6 +17868,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -17730,7 +17879,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &5819940390685329598
 GameObject:
   m_ObjectHideFlags: 0
@@ -17839,6 +17988,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -17849,7 +17999,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &5848474122899541494
 GameObject:
   m_ObjectHideFlags: 0
@@ -17958,6 +18108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -17968,7 +18119,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &5857866674017712672
 GameObject:
   m_ObjectHideFlags: 0
@@ -18077,6 +18228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -18087,7 +18239,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &5899085213258163863
 GameObject:
   m_ObjectHideFlags: 0
@@ -18196,6 +18348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -18206,7 +18359,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &6060304227056419097
 GameObject:
   m_ObjectHideFlags: 0
@@ -18315,6 +18468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -18325,7 +18479,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &6248372176461651869
 GameObject:
   m_ObjectHideFlags: 0
@@ -18434,6 +18588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -18444,7 +18599,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &6286911460154708038
 GameObject:
   m_ObjectHideFlags: 0
@@ -18553,6 +18708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -18563,7 +18719,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &6393900329511065331
 GameObject:
   m_ObjectHideFlags: 0
@@ -18672,6 +18828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -18682,7 +18839,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &6508366612850738568
 GameObject:
   m_ObjectHideFlags: 0
@@ -18791,6 +18948,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -18801,7 +18959,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &6528482242602081974
 GameObject:
   m_ObjectHideFlags: 0
@@ -18910,6 +19068,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -18920,7 +19079,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &6593548016789147436
 GameObject:
   m_ObjectHideFlags: 0
@@ -19029,6 +19188,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -19039,7 +19199,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &6605969624084656093
 GameObject:
   m_ObjectHideFlags: 0
@@ -19148,6 +19308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -19158,7 +19319,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &6607238406116042242
 GameObject:
   m_ObjectHideFlags: 0
@@ -19267,6 +19428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -19277,7 +19439,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &6674885044078296290
 GameObject:
   m_ObjectHideFlags: 0
@@ -19386,6 +19548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -19396,7 +19559,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &6687164946204286956
 GameObject:
   m_ObjectHideFlags: 0
@@ -19505,6 +19668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -19515,7 +19679,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &6694673651391142767
 GameObject:
   m_ObjectHideFlags: 0
@@ -19624,6 +19788,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -19634,7 +19799,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &6774639530288133363
 GameObject:
   m_ObjectHideFlags: 0
@@ -19743,6 +19908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -19753,7 +19919,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &6780923966777989909
 GameObject:
   m_ObjectHideFlags: 0
@@ -19862,6 +20028,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -19872,7 +20039,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &6813572998642686686
 GameObject:
   m_ObjectHideFlags: 0
@@ -19981,6 +20148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -19991,7 +20159,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &7008073842107954857
 GameObject:
   m_ObjectHideFlags: 0
@@ -20100,6 +20268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -20110,7 +20279,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &7016433163369793129
 GameObject:
   m_ObjectHideFlags: 0
@@ -20219,6 +20388,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -20229,7 +20399,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &7024089667538087180
 GameObject:
   m_ObjectHideFlags: 0
@@ -20338,6 +20508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -20348,7 +20519,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &7030995516148494833
 GameObject:
   m_ObjectHideFlags: 0
@@ -20377,7 +20548,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7030995516148494833}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.54, y: 0, z: 7.5}
+  m_LocalPosition: {x: 1.5, y: 0, z: 7.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 149087441823102912}
@@ -20457,6 +20628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -20467,7 +20639,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &7060508802617664012
 GameObject:
   m_ObjectHideFlags: 0
@@ -20576,6 +20748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -20586,7 +20759,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &7110623161870417430
 GameObject:
   m_ObjectHideFlags: 0
@@ -20695,6 +20868,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -20705,7 +20879,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &7229550867318255025
 GameObject:
   m_ObjectHideFlags: 0
@@ -20814,13 +20988,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
   etiq: 225
-  Neighbors: []
+  Neighbors:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &7233042869254762550
 GameObject:
   m_ObjectHideFlags: 0
@@ -20929,6 +21108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -20939,7 +21119,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &7275922502163382189
 GameObject:
   m_ObjectHideFlags: 0
@@ -21048,6 +21228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -21058,7 +21239,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &7301033023621384393
 GameObject:
   m_ObjectHideFlags: 0
@@ -21167,6 +21348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -21177,7 +21359,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &7332491003199911575
 GameObject:
   m_ObjectHideFlags: 0
@@ -21286,6 +21468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -21296,7 +21479,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &7398115080411238376
 GameObject:
   m_ObjectHideFlags: 0
@@ -21405,6 +21588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -21415,7 +21599,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &7449068644824735019
 GameObject:
   m_ObjectHideFlags: 0
@@ -21524,6 +21708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -21534,7 +21719,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &7514907457010466994
 GameObject:
   m_ObjectHideFlags: 0
@@ -21563,7 +21748,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7514907457010466994}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.54, y: 0, z: 10.5}
+  m_LocalPosition: {x: 1.5, y: 0, z: 10.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 149087441823102912}
@@ -21643,6 +21828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -21653,7 +21839,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &7548722375745634826
 GameObject:
   m_ObjectHideFlags: 0
@@ -21762,6 +21948,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -21772,7 +21959,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &7598420991377720353
 GameObject:
   m_ObjectHideFlags: 0
@@ -21801,7 +21988,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7598420991377720353}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.54, y: 0, z: 6}
+  m_LocalPosition: {x: 1.5, y: 0, z: 6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 149087441823102912}
@@ -21881,6 +22068,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -21891,7 +22079,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &7812838344064603861
 GameObject:
   m_ObjectHideFlags: 0
@@ -22000,6 +22188,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -22010,7 +22199,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &7851700779399982401
 GameObject:
   m_ObjectHideFlags: 0
@@ -22119,6 +22308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -22129,7 +22319,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &7875217926117211360
 GameObject:
   m_ObjectHideFlags: 0
@@ -22158,7 +22348,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7875217926117211360}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.54, y: 0, z: 4.5}
+  m_LocalPosition: {x: 1.5, y: 0, z: 4.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 149087441823102912}
@@ -22238,6 +22428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -22248,7 +22439,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &7903658820032644723
 GameObject:
   m_ObjectHideFlags: 0
@@ -22357,6 +22548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -22367,7 +22559,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &7935654451697233379
 GameObject:
   m_ObjectHideFlags: 0
@@ -22476,6 +22668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -22486,7 +22679,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &7951657061959768107
 GameObject:
   m_ObjectHideFlags: 0
@@ -22595,6 +22788,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -22605,7 +22799,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &7960741908724540109
 GameObject:
   m_ObjectHideFlags: 0
@@ -22714,6 +22908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -22724,7 +22919,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &8052098439466623490
 GameObject:
   m_ObjectHideFlags: 0
@@ -22833,6 +23028,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -22843,7 +23039,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &8060734413089081880
 GameObject:
   m_ObjectHideFlags: 0
@@ -22952,6 +23148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -22962,7 +23159,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &8069951453046049205
 GameObject:
   m_ObjectHideFlags: 0
@@ -23071,6 +23268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -23081,7 +23279,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &8115706627619708028
 GameObject:
   m_ObjectHideFlags: 0
@@ -23190,6 +23388,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -23200,7 +23399,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &8136232622301174649
 GameObject:
   m_ObjectHideFlags: 0
@@ -23309,6 +23508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -23319,7 +23519,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &8169633878088552381
 GameObject:
   m_ObjectHideFlags: 0
@@ -23428,6 +23628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -23438,7 +23639,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &8177980196691232266
 GameObject:
   m_ObjectHideFlags: 0
@@ -23547,6 +23748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -23557,7 +23759,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &8222576573722713027
 GameObject:
   m_ObjectHideFlags: 0
@@ -23666,6 +23868,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -23676,7 +23879,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &8277917413077227297
 GameObject:
   m_ObjectHideFlags: 0
@@ -23691,7 +23894,7 @@ GameObject:
   - component: {fileID: 5135497923823747981}
   - component: {fileID: 8294522566959459042}
   m_Layer: 0
-  m_Name: 1 1 (7)
+  m_Name: 106
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23785,6 +23988,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -23795,7 +23999,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &8281224466043042123
 GameObject:
   m_ObjectHideFlags: 0
@@ -23904,6 +24108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -23914,7 +24119,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &8310011952852478773
 GameObject:
   m_ObjectHideFlags: 0
@@ -24023,6 +24228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -24033,7 +24239,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &8462277156266708246
 GameObject:
   m_ObjectHideFlags: 0
@@ -24142,6 +24348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -24152,7 +24359,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &8532801126015077832
 GameObject:
   m_ObjectHideFlags: 0
@@ -24261,6 +24468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -24271,7 +24479,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &8554167360249980170
 GameObject:
   m_ObjectHideFlags: 0
@@ -24380,6 +24588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -24390,7 +24599,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &8591352582000557374
 GameObject:
   m_ObjectHideFlags: 0
@@ -24419,7 +24628,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8591352582000557374}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.54, y: 0, z: 0}
+  m_LocalPosition: {x: 1.5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 149087441823102912}
@@ -24499,6 +24708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -24509,7 +24719,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &8612907458629863437
 GameObject:
   m_ObjectHideFlags: 0
@@ -24538,7 +24748,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8612907458629863437}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.54, y: 0, z: -9}
+  m_LocalPosition: {x: 1.5, y: 0, z: -9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 149087441823102912}
@@ -24618,6 +24828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -24628,7 +24839,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &8658739800270265725
 GameObject:
   m_ObjectHideFlags: 0
@@ -24737,6 +24948,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -24747,7 +24959,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &8718724194295511401
 GameObject:
   m_ObjectHideFlags: 0
@@ -24776,7 +24988,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8718724194295511401}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.54, y: 0, z: -6}
+  m_LocalPosition: {x: 1.5, y: 0, z: -6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 149087441823102912}
@@ -24856,6 +25068,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -24866,7 +25079,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &8777216811169278428
 GameObject:
   m_ObjectHideFlags: 0
@@ -24975,6 +25188,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -24985,7 +25199,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &8850024720503081623
 GameObject:
   m_ObjectHideFlags: 0
@@ -25094,6 +25308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -25104,7 +25319,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &8857854461898952713
 GameObject:
   m_ObjectHideFlags: 0
@@ -25133,7 +25348,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8857854461898952713}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.54, y: 0, z: -1.5}
+  m_LocalPosition: {x: 1.5, y: 0, z: -1.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 149087441823102912}
@@ -25213,6 +25428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -25223,7 +25439,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &8892601360900870091
 GameObject:
   m_ObjectHideFlags: 0
@@ -25332,6 +25548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -25342,7 +25559,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &8922912827972899259
 GameObject:
   m_ObjectHideFlags: 0
@@ -25451,6 +25668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -25461,7 +25679,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &8942499663844803291
 GameObject:
   m_ObjectHideFlags: 0
@@ -25570,6 +25788,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -25580,7 +25799,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &8952342039887623451
 GameObject:
   m_ObjectHideFlags: 0
@@ -25689,6 +25908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -25699,7 +25919,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &8952348913015999801
 GameObject:
   m_ObjectHideFlags: 0
@@ -25808,6 +26028,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -25818,7 +26039,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &8989341399570307470
 GameObject:
   m_ObjectHideFlags: 0
@@ -25927,6 +26148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -25937,7 +26159,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &9009545870406787969
 GameObject:
   m_ObjectHideFlags: 0
@@ -25952,7 +26174,7 @@ GameObject:
   - component: {fileID: 1933627621726345882}
   - component: {fileID: 8294522566959459059}
   m_Layer: 0
-  m_Name: 1 1 (6)
+  m_Name: 91
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26046,6 +26268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -26056,7 +26279,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &9019725002505108381
 GameObject:
   m_ObjectHideFlags: 0
@@ -26165,6 +26388,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -26175,7 +26399,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &9043693843605602164
 GameObject:
   m_ObjectHideFlags: 0
@@ -26539,6 +26763,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -26549,7 +26774,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &9101966740459867256
 GameObject:
   m_ObjectHideFlags: 0
@@ -26658,6 +26883,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -26668,7 +26894,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &9135624600398946230
 GameObject:
   m_ObjectHideFlags: 0
@@ -26777,6 +27003,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -26787,7 +27014,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1 &9210244305544628725
 GameObject:
   m_ObjectHideFlags: 0
@@ -26896,6 +27123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b95810973134804391e23f93f810f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   WALL:
     serializedVersion: 2
     m_Bits: 8
@@ -26906,7 +27134,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   parent: {fileID: 0}
-  IsWall: 1
+  IsWall: 0
 --- !u!1001 &5877875508761152404
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26962,9 +27190,13 @@ PrefabInstance:
       propertyPath: etiq
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2490060642287428045, guid: 46525d80f49b7b34aa727d0e8aebf54e, type: 3}
+      propertyPath: IsWall
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6488919278548966937, guid: 46525d80f49b7b34aa727d0e8aebf54e, type: 3}
       propertyPath: m_Name
-      value: 1 1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8355139509630887719, guid: 46525d80f49b7b34aa727d0e8aebf54e, type: 3}
       propertyPath: m_Enabled

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MapNode : MonoBehaviour
 {
-    private Vector3 position;
+    public Vector3 position;
     public LayerMask WALL;
     public int etiq;
     public MapNode[] Neighbors; // Nodos adyacentes
@@ -12,13 +12,14 @@ public class MapNode : MonoBehaviour
     public MapNode parent;
 
     public bool IsWall = false;
-    public Vector3 vectorcheck;
+
 
 
     // Start is called before the first frame update
     void Start()
     {
         position = transform.position;
+
        // CheckIsWall();
     }
     //void CheckIsWall()
@@ -71,6 +72,10 @@ public class MapNode : MonoBehaviour
             
         }
         
+    }
+    public Vector3 GetPosition()
+    {
+        return position;
     }
     //public MapNode[] GetNeighboringNodes(MapNode[] NodeGrid)
     //{

@@ -29,7 +29,7 @@ public class Items : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log($"Items {numberItem}");
+       // Debug.Log($"Items {numberItem}");
 
     }
 }
