@@ -7,6 +7,7 @@ public class SnakeMovement : MonoBehaviour
 {
 
     public PlayerDirection direction;
+    public LayerMask wall;
     private  PlayerDirection prevDir;
     bool colliderHitByRaycast;
     RaycastHit hit;
@@ -46,7 +47,7 @@ public class SnakeMovement : MonoBehaviour
         onDeath = false;
         mainBody = GetComponent<Rigidbody>();
         mainBody.position = spawnPos.position; //--
-        Debug.Log("pos main " + mainBody.position);
+       // Debug.Log("pos main " + mainBody.position);
         reset = direction;
         InitSnakeParts();
         InitPlayer();
@@ -140,19 +141,19 @@ public class SnakeMovement : MonoBehaviour
         {
             case PlayerDirection.RIGHT:
                 Debug.DrawRay(transform.position, Vector3.right * stepLenght, Color.blue, 3);
-                colliderHitByRaycast = Physics.Raycast(transform.position, Vector3.right, out hit, stepLenght);
+                colliderHitByRaycast = Physics.Raycast(transform.position, Vector3.right, out hit, stepLenght,wall);
                 break;
             case PlayerDirection.LEFT:
                 Debug.DrawRay(transform.position, Vector3.left * stepLenght, Color.blue, 3);
-                colliderHitByRaycast = Physics.Raycast(transform.position, Vector3.left, out hit, stepLenght);
+                colliderHitByRaycast = Physics.Raycast(transform.position, Vector3.left, out hit, stepLenght,wall);
                 break;
             case PlayerDirection.DOWN:
                 Debug.DrawRay(transform.position, Vector3.back * stepLenght, Color.blue, 3);
-                colliderHitByRaycast = Physics.Raycast(transform.position, Vector3.back, out hit, stepLenght);
+                colliderHitByRaycast = Physics.Raycast(transform.position, Vector3.back, out hit, stepLenght,wall);
                 break;
             case PlayerDirection.UP:
                 Debug.DrawRay(transform.position, Vector3.forward * stepLenght, Color.blue, 3);
-                colliderHitByRaycast = Physics.Raycast(transform.position, Vector3.forward, out hit, stepLenght);
+                colliderHitByRaycast = Physics.Raycast(transform.position, Vector3.forward, out hit, stepLenght,wall);
                 break;
             default:
                 Debug.DrawRay(transform.position, Vector3.forward * stepLenght * 3, Color.blue, 3);
@@ -277,19 +278,19 @@ public class SnakeMovement : MonoBehaviour
         {
             case PlayerDirection.RIGHT:
                 Debug.DrawRay(transform.position, Vector3.right * stepLenght, Color.red, 3);
-                colliderHitByRaycast = Physics.Raycast(transform.position, Vector3.right, out hit, stepLenght);
+                colliderHitByRaycast = Physics.Raycast(transform.position, Vector3.right, out hit, stepLenght,wall);
                 break;
             case PlayerDirection.LEFT:
                 Debug.DrawRay(transform.position, Vector3.left * stepLenght, Color.red, 3);
-                colliderHitByRaycast = Physics.Raycast(transform.position, Vector3.left, out hit, stepLenght);
+                colliderHitByRaycast = Physics.Raycast(transform.position, Vector3.left, out hit, stepLenght,wall);
                 break;
             case PlayerDirection.DOWN:
                 Debug.DrawRay(transform.position, Vector3.back * stepLenght, Color.red, 3);
-                colliderHitByRaycast = Physics.Raycast(transform.position, Vector3.back, out hit, stepLenght);
+                colliderHitByRaycast = Physics.Raycast(transform.position, Vector3.back, out hit, stepLenght,wall);
                 break;
             case PlayerDirection.UP:
                 Debug.DrawRay(transform.position, Vector3.forward * stepLenght, Color.red, 3);
-                colliderHitByRaycast = Physics.Raycast(transform.position, Vector3.forward, out hit, stepLenght);
+                colliderHitByRaycast = Physics.Raycast(transform.position, Vector3.forward, out hit, stepLenght, wall);
                 break;
             default:
                 Debug.DrawRay(transform.position, Vector3.forward * stepLenght * 3, Color.blue, 3);
