@@ -8,11 +8,14 @@ TagManager:
   - Head
   - Tail
   - NotMoveable
+  - Fruit
+  - Ghost
+  - Box
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Wall
   - Water
   - UI
   - 

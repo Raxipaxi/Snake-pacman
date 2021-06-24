@@ -8,21 +8,83 @@ using UnityEngine;
 public class Tags
 {
     //Tags
-    public static string WALL = "Wall";
-    public static string BOX = "Box";
-    public static string FRUIT = "Fruit";
-    public static string BOMB = "Bomb";
-    public static string Tail = "Tail";
-    public static string Node = "Head";
+    public const string WALL = "Wall";
+    public const string BOX = "Box";
+    public const string FRUIT = "Fruit";
+    public const string BOMB = "Bomb";
+    public const string TAIL = "Tail";
+    public const string Node = "Head";
+    public const string GHOST = "Ghost";
 
+}
+
+public class SpawnPointslvl1
+{
+    public static Vector3[] spawn =
+    {
+    new Vector3(-7.5f,3.5f,15f),
+    new Vector3(-7.5f,3.5f,22.5f),
+    new Vector3(-7.5f,3.5f,30f),
+    new Vector3(-7.5f,3.5f,37.5f),
+    new Vector3(-7.5f,3.5f,45f),
+    new Vector3(-7.5f,3.5f, 52.5f),
+    new Vector3(-37.5f,3.5f,15f),
+    new Vector3(-37.5f,3.5f,22.5f),
+    new Vector3(-37.5f,3.5f,30f),
+    new Vector3(-37.5f,3.5f,37.5f),
+    new Vector3(-37.5f,3.5f,45f),
+    new Vector3(-37.5f,3.5f,52.5f),
+    new Vector3(-52.5f,3.5f,15f),
+    new Vector3(-52.5f,3.5f,22.5f),
+    new Vector3(-52.5f,3.5f,30f),
+    new Vector3(-52.5f,3.5f,37.5f),
+    new Vector3(-52.5f,3.5f,45f),
+    new Vector3(-52.5f,3.5f,52.5f),
+    new Vector3(22.5f,3.5f,15f),
+    new Vector3(22.5f,3.5f,22.5f),
+    new Vector3(22.5f,3.5f,30f),
+    new Vector3(22.5f,3.5f,37.5f),
+    new Vector3(22.5f,3.5f,45f),
+    new Vector3(22.5f,3.5f,52.5f)
+};
+}
+public class SpawnPointslvl2
+{
+    public static Vector3[] spawn =
+    {
+    new Vector3(7.5f,3.5f,45f),
+    new Vector3(-7.5f,3.5f,45f),
+    new Vector3(-7.5f,3.5f,37.5f),
+    new Vector3(-15f,3.5f,37.5f),
+    new Vector3(-30f,3.5f,37.5f),    
+    new Vector3(15f,3.5f,37.5f),
+    new Vector3(30f,3.5f,7.5f),
+    new Vector3(-30f,3.5f,7.5f),
+    new Vector3(30f,3.5f,-7.5f),
+    new Vector3(-30f,3.5f,-7.5f),
+    new Vector3(30f,3.5f,52.5f),
+    new Vector3(-52.5f,3.5f,52.5f),
+    new Vector3(52.5f,3.5f,52.5f),
+    new Vector3(-52.5f,3.5f,7.5f),
+    new Vector3(52.5f,3.5f,7.5f),
+    new Vector3(7.5f,3.5f,7.5f),
+    new Vector3(-7.5f,3.5f,7.5f) 
+};
 }
 
 public class Metrics
 {
-    public static float NODEHEADDIST = 5.5f;
-    public static float NODESIZE = 5.5f;
+    public static float NODEHEADDIST = 7.5f;
+    public static float NODESIZE = 7.5f;
 }
-
+public class GridSize
+{
+    public static float MINX = -52.5f;
+    public static float MAXX = 52.5f;
+    //Z: -52.5   52.5
+    public static float MINZ = -52.5f;
+    public static float MAXZ = 52.5f;
+}
 public enum PlayerDirection
 {   // Movements allowed
     LEFT = 0,
