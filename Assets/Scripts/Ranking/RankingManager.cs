@@ -3,18 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class RankingManager : MonoBehaviour
 {
+    
+
     QueueTF queue = new QueueTF();
     public List<GameObject> rankingRowElements;
     public GameObject inputField;
     public string ingresoDelNickname;
     private MiniGameManager miniGameManager;
- 
+    
+    
+   
     void Start()
     {
         miniGameManager = gameObject.AddComponent<MiniGameManager>();
-
+       
         queue.InitiaiizeQueue();
         var list = Database.current.GetAllRankings();
         foreach(var player in list)
@@ -24,7 +29,7 @@ public class RankingManager : MonoBehaviour
         UpdateSceen();
     }
 
-   
+
     public void StoreName()
     {
         ingresoDelNickname = inputField.GetComponent<Text>().text;
@@ -95,4 +100,6 @@ public class RankingManager : MonoBehaviour
             }
         }
     }
+    
+    
 }

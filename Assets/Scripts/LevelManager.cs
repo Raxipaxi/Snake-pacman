@@ -31,7 +31,7 @@ public class LevelManager : MonoBehaviour
     //private float maxZ = 52.5f;
 
     private float fruitY = 3.5f;
-
+   
 
 
 

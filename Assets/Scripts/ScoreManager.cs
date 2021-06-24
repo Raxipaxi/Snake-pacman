@@ -6,13 +6,13 @@ using UnityEngine.Events;
 
 public class ScoreManager : MonoBehaviour
 {
-    int score;
+    public int score;
     GameObject player;
     [SerializeField] Text scoreText;
 
     void Start()
     {
-        score = 0;
+        
         player = GameObject.FindGameObjectWithTag("Player");
         player.GetComponent<SnakeMovement>().OnCherryCollected.AddListener(OnCherryCollectedHandler);
     }
@@ -32,5 +32,6 @@ public class ScoreManager : MonoBehaviour
     void UpdateScore()
     {
         scoreText.text = $"Score: {score}"; 
+        
     }
 }

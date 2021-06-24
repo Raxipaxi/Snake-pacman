@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class MiniGameManager : MonoBehaviour
 {
+    ScoreManager scoreManager;
     // Start is called before the first frame update
 
     public int TotalRecordLlegado { get; private set; }
 
     void Start()
     {
-        TotalRecordLlegado = 0;
+        TotalRecordLlegado = scoreManager.score;
     }
 
     // Update is called once per frame

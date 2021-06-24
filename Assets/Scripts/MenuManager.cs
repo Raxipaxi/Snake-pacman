@@ -10,6 +10,11 @@ public class MenuManager : MonoBehaviour
         Application.Quit();
     }
 
+    public void ReturnScoreboard()
+    {
+
+        SceneManager.LoadScene("SceneScore");
+    }
     public void ReturnMenu()
     {
        
