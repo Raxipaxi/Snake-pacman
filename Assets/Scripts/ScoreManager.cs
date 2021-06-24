@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class ScoreManager : MonoBehaviour
 {
@@ -16,7 +17,8 @@ public class ScoreManager : MonoBehaviour
         
         player = GameObject.FindGameObjectWithTag("Player");
         player.GetComponent<SnakeMovement>().OnCherryCollected.AddListener(OnCherryCollectedHandler);
-        
+        player.GetComponent<SnakeMovement>().OnGetDamage.AddListener(OnGetDamageHandler);
+
 
     }
 
@@ -24,6 +26,15 @@ public class ScoreManager : MonoBehaviour
     void Update()
     {
         UpdateScore();
+        switch (SceneManager.GetActiveScene().buildIndex)
+        {
+            case 1:
+                PlayerStats.Level = 1;
+                break;
+            case 2:
+                PlayerStats.Level = 2;
+                break;
+        }
     }
 
     void OnCherryCollectedHandler()
@@ -32,6 +43,16 @@ public class ScoreManager : MonoBehaviour
         PlayerStats.Score += 100;
         UpdateScore();
         
+    }
+
+    void OnGetDamageHandler()
+    {
+        PlayerStats.Score -= 50;
+        if(PlayerStats.Score < 0)
+        {
+            PlayerStats.Score = 0;
+        }
+        UpdateScore();
     }
 
     void UpdateScore()

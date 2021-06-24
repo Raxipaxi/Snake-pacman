@@ -9,6 +9,7 @@ public class RankingManager : MonoBehaviour
     
 
     QueueTF queue = new QueueTF();
+    [SerializeField] Button addScoreButton;
     public List<GameObject> rankingRowElements;
     public GameObject inputField;
     public string ingresoDelNickname;
@@ -26,7 +27,20 @@ public class RankingManager : MonoBehaviour
         {
             queue.Enqueue(player);         
         }
+        
         UpdateSceen();
+    }
+
+    private void Update()
+    {
+        if (PlayerStats.Level == 1 || PlayerStats.Level == 2)
+        {
+            addScoreButton.interactable = true;
+        }
+        else
+        {
+            addScoreButton.interactable = false;
+        }
     }
 
 
@@ -41,6 +55,7 @@ public class RankingManager : MonoBehaviour
         var player = new Player();
        
         player.Score = PlayerStats.Score;
+        player.Level = PlayerStats.Level;
 
         player.Nickname = ingresoDelNickname;
         if (player.Nickname != string.Empty)
@@ -52,6 +67,7 @@ public class RankingManager : MonoBehaviour
         }
         player.Score = 0;
         PlayerStats.Score = 0;
+        PlayerStats.Level = 0;
         // PrintQueue()
     }
 

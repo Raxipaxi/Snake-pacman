@@ -5,6 +5,7 @@ using UnityEngine;
 public static class PlayerStats 
 {
     private static int score;
+    private static int level;
 
     public static int Score 
     {
@@ -15,6 +16,18 @@ public static class PlayerStats
         set
         {
             score = value;
+        }
+    }
+
+    public static int Level
+    {
+        get
+        {
+            return level;
+        }
+        set
+        {
+            level = value;
         }
     }
 }
