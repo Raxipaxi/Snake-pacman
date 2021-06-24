@@ -6,8 +6,8 @@ using UnityEngine.Events;
 
 public class ScoreManager : MonoBehaviour
 {
-    int score;
-    RankingManager rankingManager;
+    
+  
     GameObject player;
     [SerializeField] Text scoreText;
     
@@ -23,20 +23,20 @@ public class ScoreManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        UpdateScore();
     }
 
     void OnCherryCollectedHandler()
     {
-        score += 100;
+        
+        PlayerStats.Score += 100;
         UpdateScore();
-        rankingManager.StoredScore += score;
         
     }
 
     void UpdateScore()
     {
-        scoreText.text = $"Score: {score}"; 
+        scoreText.text = $"Score: {PlayerStats.Score}"; 
         
     }
 }

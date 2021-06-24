@@ -13,7 +13,7 @@ public class MenuManager : MonoBehaviour
     public void ReturnScoreboard()
     {
 
-        SceneManager.LoadScene("SceneScore");
+        SceneManager.LoadScene(3);
     }
     public void ReturnMenu()
     {

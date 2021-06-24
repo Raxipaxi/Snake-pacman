@@ -13,7 +13,7 @@ public class RankingManager : MonoBehaviour
     public GameObject inputField;
     public string ingresoDelNickname;
     private MiniGameManager miniGameManager;
-    public int StoredScore;
+    
 
 
     void Start()
@@ -40,7 +40,7 @@ public class RankingManager : MonoBehaviour
     {
         var player = new Player();
        
-        player.Score = 10;
+        player.Score = PlayerStats.Score;
 
         player.Nickname = ingresoDelNickname;
         if (player.Nickname != string.Empty)
@@ -51,7 +51,7 @@ public class RankingManager : MonoBehaviour
             UpdateSceen();
         }
         player.Score = 0;
-        StoredScore = 0;
+        PlayerStats.Score = 0;
         // PrintQueue()
     }
 
