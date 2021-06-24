@@ -11,7 +11,7 @@ public class MiniGameManager : MonoBehaviour
 
     void Start()
     {
-        TotalRecordLlegado = scoreManager.score;
+        TotalRecordLlegado = 500;
     }
 
     // Update is called once per frame

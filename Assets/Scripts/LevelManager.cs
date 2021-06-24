@@ -133,7 +133,7 @@ public class LevelManager : MonoBehaviour
         {
             Time.timeScale = 0f;
             screenWin.SetActive(true);
-            Debug.Log("GANASTE--TU--PUNTUACION--FUE--DE--(PUNTUACION)"); //TODO: ACA TENDRIA QUE IR EL SCORE
+            Debug.Log($"GANASTE--TU--PUNTUACION--FUE--DE--(PUNTUACION)"); //TODO: ACA TENDRIA QUE IR EL SCORE
             PlayerPrefs.DeleteAll();
         }
 

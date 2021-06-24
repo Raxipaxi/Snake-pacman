@@ -13,12 +13,12 @@ public class RankingManager : MonoBehaviour
     public GameObject inputField;
     public string ingresoDelNickname;
     private MiniGameManager miniGameManager;
-    
-    
-   
+    public int StoredScore;
+
+
     void Start()
     {
-        miniGameManager = gameObject.AddComponent<MiniGameManager>();
+       // miniGameManager = gameObject.AddComponent<MiniGameManager>();
        
         queue.InitiaiizeQueue();
         var list = Database.current.GetAllRankings();
@@ -40,7 +40,7 @@ public class RankingManager : MonoBehaviour
     {
         var player = new Player();
        
-        player.Score = miniGameManager.TotalRecordLlegado;
+        player.Score = 10;
 
         player.Nickname = ingresoDelNickname;
         if (player.Nickname != string.Empty)
@@ -51,6 +51,7 @@ public class RankingManager : MonoBehaviour
             UpdateSceen();
         }
         player.Score = 0;
+        StoredScore = 0;
         // PrintQueue()
     }
 

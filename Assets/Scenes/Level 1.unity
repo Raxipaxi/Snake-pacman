@@ -204,7 +204,6 @@ GameObject:
   - component: {fileID: 27805212}
   - component: {fileID: 27805214}
   - component: {fileID: 27805215}
-  - component: {fileID: 27805216}
   m_Layer: 0
   m_Name: Level1Controller
   m_TagString: Untagged
@@ -271,21 +270,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   grid: {fileID: 1733014245}
   NodeGrids: []
---- !u!114 &27805216
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 27805211}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8b3e3c707ec8b246b31e447d0e3b1d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rankingRowElements: []
-  inputField: {fileID: 0}
-  ingresoDelNickname: 
 --- !u!1 &67717549
 GameObject:
   m_ObjectHideFlags: 0
@@ -622,7 +606,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d932cafd5a63fba40923834b5fc53e8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 0
   scoreText: {fileID: 1381896687}
 --- !u!114 &319431450
 MonoBehaviour:
