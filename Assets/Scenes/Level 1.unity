@@ -283,6 +283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8b3e3c707ec8b246b31e447d0e3b1d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  addScoreButton: {fileID: 0}
   rankingRowElements: []
   inputField: {fileID: 0}
   ingresoDelNickname: 

@@ -13,22 +13,22 @@ public class RankingManager : MonoBehaviour
     public GameObject inputField;
     public string ingresoDelNickname;
     private MiniGameManager miniGameManager;
-    
+
 
 
     void Start()
     {
-       // miniGameManager = gameObject.AddComponent<MiniGameManager>();
-       
+        // miniGameManager = gameObject.AddComponent<MiniGameManager>();
+
         queue.InitiaiizeQueue();
         var list = Database.current.GetAllRankings();
-        foreach(var player in list)
+        foreach (var player in list)
         {
-            queue.Enqueue(player);         
+            queue.Enqueue(player);
         }
-        UpdateSceen();
-    }
 
+        UpdateScene();
+    }
 
     public void StoreName()
     {
@@ -48,7 +48,7 @@ public class RankingManager : MonoBehaviour
             Database.current.InsertRanking(player);
             player = Database.current.GetLatestRanking();
             queue.Enqueue(player);
-            UpdateSceen();
+            UpdateScene();
         }
         player.Score = 0;
         PlayerStats.Score = 0;
@@ -59,14 +59,14 @@ public class RankingManager : MonoBehaviour
     {
         var player = queue.DequeueWithReturn();
         Database.current.DeleteRanking(player);
-        UpdateSceen();
+        UpdateScene();
         //PrintQueue();
     }
 
     public void ResetRanking()
     {
         queue.InitiaiizeQueue();
-        UpdateSceen();
+        UpdateScene();
         Database.current.DropTableRanking();
         Database.current.CreateTableRanking();
 
@@ -83,7 +83,7 @@ public class RankingManager : MonoBehaviour
         }
     }
 
-    private void UpdateSceen()
+    private void UpdateScene()
     {
         var ranking = queue.GetRanking();
 
