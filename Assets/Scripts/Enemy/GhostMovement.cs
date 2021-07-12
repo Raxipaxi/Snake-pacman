@@ -7,6 +7,7 @@ public class GhostMovement : MonoBehaviour
 {
     public Grid grid;
     public GameObject snakePlayer;
+    public float dijkstraRepeat = 1f;
     Vector3 snakePos;
     [SerializeField] float frequency = 0.2f;
     private float counter;
@@ -17,7 +18,8 @@ public class GhostMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("ItsDijkstraTime", 0.1f,1f);
+        InvokeRepeating("ItsDijkstraTime",0f ,dijkstraRepeat);
+        
     }
 
     void ItsDijkstraTime()

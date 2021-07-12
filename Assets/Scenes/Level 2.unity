@@ -539,6 +539,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: RestartLevel
       objectReference: {fileID: 0}
+    - target: {fileID: 4670183211039480776, guid: f1a58d2a3573ff14fae9e1584285fb1e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4670183211171164337, guid: f1a58d2a3573ff14fae9e1584285fb1e, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 290
@@ -1307,6 +1311,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 261201322938124516, guid: 1ec06d989223c90419dc539502b305bc, type: 3}
   m_PrefabInstance: {fileID: 2096272979}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1538977010 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7005036213481318365, guid: cf42660eb620a704dbfc9b2ff46af32c, type: 3}
+  m_PrefabInstance: {fileID: 6178142837123530370}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f06eaa0efae524d4c863476c0e32ca70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1664860335
 GameObject:
   m_ObjectHideFlags: 0
@@ -1339,13 +1354,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6fb2bdf0b14294a98cc431e98eb061, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cherriesWin: {fileID: 0}
+  cherriesWin: {fileID: 1538977010}
   snakeMovement: {fileID: 1796984078}
   screenWin: {fileID: 903519047}
   screenDefeat: {fileID: 431551797}
   nextLevel: 0
   Fruit: {fileID: 981906712869386717, guid: dcc0dc7778451fe419b2fcde3e8d69a2, type: 3}
-  itemsRequired: 1
+  itemsRequired: 3
 --- !u!4 &1664860337
 Transform:
   m_ObjectHideFlags: 0
