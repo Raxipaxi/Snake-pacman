@@ -12,9 +12,8 @@ GameObject:
   - component: {fileID: 1646252485147904304}
   - component: {fileID: 1646252485147904303}
   - component: {fileID: 1395248549}
-  - component: {fileID: 2308870144761679389}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: EnemyFast
   m_TagString: Ghost
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64,30 +63,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1646252485147904301}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 92c67a4dfa6cd454a93f029bcc3d6544, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   movementVector: {x: 0, y: 0, z: 22.5}
   period: 7.5
---- !u!114 &2308870144761679389
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1646252485147904301}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b669570f60d9d643bc001414cf8a24b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  grid: {fileID: 0}
-  snakePlayer: {fileID: 0}
-  frequency: 0.6
-  enemyPath: []
-  pathEtiq: 
 --- !u!1 &1646252486272348203
 GameObject:
   m_ObjectHideFlags: 0

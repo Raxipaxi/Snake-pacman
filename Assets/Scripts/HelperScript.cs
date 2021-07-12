@@ -71,6 +71,24 @@ public class SpawnPointslvl2
     new Vector3(-7.5f,3.5f,7.5f) 
 };
 }
+public class SpawnPointslvl3
+{
+    public static Vector3[] spawn =
+    {
+        new Vector3(-52.5f,3.5f,52.5f),
+        new Vector3(52.5f,3.5f,52.5f),
+        new Vector3(-52.5f,3.5f,7.5f),
+        new Vector3(0,3.5f,7.5f),
+        new Vector3(0,3.5f,22.5f),
+        new Vector3(0,3.5f,37.5f),
+        new Vector3(0,3.5f,-37.5f),
+        new Vector3(-37.5f,3.5f,-37.5f),
+        new Vector3(-37.5f,3.5f,37.5f),
+        new Vector3(-30f,3.5f,0f),
+        new Vector3(30f,3.5f,0f),
+        new Vector3(-45f,3.5f,30f)
+    };
+}
 
 public class Metrics
 {

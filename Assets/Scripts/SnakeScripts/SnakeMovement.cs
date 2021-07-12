@@ -21,8 +21,7 @@ public class SnakeMovement : MonoBehaviour
     private float counter;
     private PlayerDirection reset;
 
-    public string aVer = "Bla";
-
+    
     // Parts to be added
     [SerializeField] private GameObject bodyPartPrefab;
 

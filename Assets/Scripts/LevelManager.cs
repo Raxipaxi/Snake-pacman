@@ -31,22 +31,9 @@ public class LevelManager : MonoBehaviour
     //private float maxZ = 52.5f;
 
     private float fruitY = 3.5f;
-   
-
-
 
     // FruitGenerator
     List<GameObject> Fruits;
-    /* 
-    * controlar que siga habiendo vidas
-    * 
-    * 
-    * controla si se gana o pierde
-    * 
-    * 
-    * Crea enemigos
-    * 
-    */
 
     void Start()
     {
@@ -56,7 +43,6 @@ public class LevelManager : MonoBehaviour
         #endregion
         FruitsPool();
         Time.timeScale = 1f;
-
 
     }
 
@@ -115,9 +101,15 @@ public class LevelManager : MonoBehaviour
                 break;
 
             case 2:
-                 spw = Random.Range(0, SpawnPointslvl2.spawn.Length - 1); // Array de vector de level 1
+                 spw = Random.Range(0, SpawnPointslvl2.spawn.Length - 1); // Array de vector de level 2
                                                                            
                 Fruit = Instantiate(Fruits[Fruits.Count - 1], new Vector3(SpawnPointslvl2.spawn[spw].x, fruitY, SpawnPointslvl2.spawn[spw].z), Quaternion.identity);
+
+                break;
+            case 3:
+                spw = Random.Range(0, SpawnPointslvl3.spawn.Length - 1); // Array de vector de level 3
+                                                                           
+                Fruit = Instantiate(Fruits[Fruits.Count - 1], new Vector3(SpawnPointslvl3.spawn[spw].x, fruitY, SpawnPointslvl3.spawn[spw].z), Quaternion.identity);
 
                 break;
             default:

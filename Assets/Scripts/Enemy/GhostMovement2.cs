@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using UnityEngine;
 
-public class GhostMovement : MonoBehaviour
+public class GhostMovement2 : MonoBehaviour
 {
     public Grid grid;
+    public int follow = 10;
+    public int dijkstraRepeat=1;
     public GameObject snakePlayer;
     Vector3 snakePos;
     [SerializeField] float frequency = 0.2f;
@@ -17,7 +19,7 @@ public class GhostMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("ItsDijkstraTime", 0.1f,1f);
+        InvokeRepeating("ItsDijkstraTime", 0.1f,dijkstraRepeat);
     }
 
     void ItsDijkstraTime()
@@ -35,6 +37,7 @@ public class GhostMovement : MonoBehaviour
             print(Dijkstra.nodos[destiny-1]); 
             string pattern = ","; 
             string[] Sway = Regex.Split(Dijkstra.nodos[destiny-1], pattern); 
+
             int[] way = new int[Sway.Length];
             enemyPath = new Vector3[way.Length];
             pathEtiq = new int[way.Length];
@@ -68,8 +71,6 @@ public class GhostMovement : MonoBehaviour
                 return node.etiq;
             }
         }
-
-
         return 0;
     }
 
@@ -80,8 +81,7 @@ public class GhostMovement : MonoBehaviour
 
         if (counter > frequency)
         {
-
-            if (indexStep < enemyPath.Length-1)
+            if (indexStep < enemyPath.Length-1 && enemyPath.Length < follow)
             {
                 //print("Nodo " + pathEtiq[indexStep] + " " + enemyPath[indexStep]);
                 currentPos = enemyPath[indexStep];
@@ -89,7 +89,6 @@ public class GhostMovement : MonoBehaviour
                 indexStep++;
                 counter = 0;
             }
-
         }
 
     }
