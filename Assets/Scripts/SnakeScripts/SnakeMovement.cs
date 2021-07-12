@@ -12,15 +12,16 @@ public class SnakeMovement : MonoBehaviour
     bool colliderHitByRaycast;
     RaycastHit hit;
 
-
-
     [SerializeField] float frequency = 0.2f;
-    [SerializeField] float stepLenght = 0.2f;
+    [SerializeField] float stepLenght = 0.2f; 
     [SerializeField] Transform spawnPos;
+    [SerializeField] float spinSpeed =  600f;
     public bool onDeath;
     private bool move;
     private float counter;
     private PlayerDirection reset;
+
+    public string aVer = "Bla";
 
     // Parts to be added
     [SerializeField] private GameObject bodyPartPrefab;
@@ -130,8 +131,7 @@ public class SnakeMovement : MonoBehaviour
                         BodyParts[i].position = BodyParts[i - 1].position - new Vector3(0f, 0f, Metrics.NODESIZE);
                     }
                 }
-                break;
-            default:
+
                 break;
         }
     }
@@ -156,7 +156,7 @@ public class SnakeMovement : MonoBehaviour
                 colliderHitByRaycast = Physics.Raycast(transform.position, Vector3.forward, out hit, stepLenght,wall);
                 break;
             default:
-                Debug.DrawRay(transform.position, Vector3.forward * stepLenght * 3, Color.blue, 3);
+                //Debug.DrawRay(transform.position, Vector3.forward * stepLenght * 3, Color.blue, 3);
                 break;
         }
         if (colliderHitByRaycast && !hit.collider.isTrigger)
@@ -187,7 +187,9 @@ public class SnakeMovement : MonoBehaviour
        for (int i = 1; i < BodyParts.Count; i++)
         {
             prevPos = BodyParts[i].transform.position;
+       
             BodyParts[i].position = parentPos;
+            BodyParts[i].rotation =  Quaternion.Euler(Vector3.back * spinSpeed) * BodyParts[i].rotation; 
             parentPos = prevPos; 
         }
 
@@ -195,10 +197,10 @@ public class SnakeMovement : MonoBehaviour
         {
            GameObject newNode = Instantiate(bodyPartPrefab,BodyParts[BodyParts.Count-1].position,Quaternion.identity); // bodyparts.count - 1 change for "LAST NODE"
            // add the .next to the last part of the snake
-            newNode.transform.SetParent(transform, true);
+           newNode.transform.SetParent(transform, true);
            BodyParts.Add(newNode.GetComponent<Rigidbody>());
-          
-            createBodyPart = false;
+
+           createBodyPart = false;
         }
     }
 
@@ -241,7 +243,7 @@ public class SnakeMovement : MonoBehaviour
         Move();
     }
 
-    private void OnTriggerEnter(Collider target)
+    public void OnTriggerEnter(Collider target)
     {
        switch (target.tag)
        {

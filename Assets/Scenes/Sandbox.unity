@@ -151,7 +151,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &151619078
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -426,6 +426,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CanvasScreenLvlPass
       objectReference: {fileID: 0}
+    - target: {fileID: 4670183212942040854, guid: f1a58d2a3573ff14fae9e1584285fb1e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1a58d2a3573ff14fae9e1584285fb1e, type: 3}
 --- !u!1 &1371758567 stripped
@@ -538,6 +542,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 567283341737566207, guid: 5e31dc98807dc504184d8947a2c43b1b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 567283341737566207, guid: 5e31dc98807dc504184d8947a2c43b1b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7167903292571739055, guid: 5e31dc98807dc504184d8947a2c43b1b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7167903292571739055, guid: 5e31dc98807dc504184d8947a2c43b1b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.4
+      objectReference: {fileID: 0}
     - target: {fileID: 7794608366459309889, guid: 5e31dc98807dc504184d8947a2c43b1b, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -586,10 +606,6 @@ PrefabInstance:
       propertyPath: spawnPos
       value: 
       objectReference: {fileID: 1003675255}
-    - target: {fileID: 7794608366459309890, guid: 5e31dc98807dc504184d8947a2c43b1b, type: 3}
-      propertyPath: wall.m_Bits
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 7794608366459309895, guid: 5e31dc98807dc504184d8947a2c43b1b, type: 3}
       propertyPath: m_Name
       value: Snake

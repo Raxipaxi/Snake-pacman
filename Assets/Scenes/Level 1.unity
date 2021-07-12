@@ -283,7 +283,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8b3e3c707ec8b246b31e447d0e3b1d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  addScoreButton: {fileID: 0}
   rankingRowElements: []
   inputField: {fileID: 0}
   ingresoDelNickname: 
@@ -1395,7 +1394,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1162371280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2012,6 +2011,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CanvasScreenLvlPass
       objectReference: {fileID: 0}
+    - target: {fileID: 4670183212942040854, guid: f1a58d2a3573ff14fae9e1584285fb1e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1a58d2a3573ff14fae9e1584285fb1e, type: 3}
 --- !u!1 &1564009149 stripped
@@ -2577,6 +2580,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 686516366746789577, guid: 1ccf92a11b2208643885426e224cbbd3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -58
+      objectReference: {fileID: 0}
     - target: {fileID: 686516368597697802, guid: 1ccf92a11b2208643885426e224cbbd3, type: 3}
       propertyPath: m_Name
       value: Scenario1
@@ -2634,6 +2641,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7794608366096972984, guid: 5e31dc98807dc504184d8947a2c43b1b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7794608366447924723, guid: 5e31dc98807dc504184d8947a2c43b1b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7794608366459309888, guid: 5e31dc98807dc504184d8947a2c43b1b, type: 3}
+      propertyPath: m_Radius
+      value: 3.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7794608366459309889, guid: 5e31dc98807dc504184d8947a2c43b1b, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -2683,8 +2702,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 83751480}
     - target: {fileID: 7794608366459309890, guid: 5e31dc98807dc504184d8947a2c43b1b, type: 3}
-      propertyPath: wall.m_Bits
-      value: 8
+      propertyPath: direction
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7794608366459309895, guid: 5e31dc98807dc504184d8947a2c43b1b, type: 3}
       propertyPath: m_Name
