@@ -13,12 +13,18 @@ public class MenuManager : MonoBehaviour
     public void ReturnScoreboard()
     {
 
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
     }
     public void ReturnMenu()
     {
        
         SceneManager.LoadScene(0);
+    }
+    public void NextLvl()
+    {
+        int sceneIndex = SceneManager.GetActiveScene().buildIndex;
+        sceneIndex = sceneIndex + 1;
+        SceneManager.LoadScene(sceneIndex);
     }
     // Start is called before the first frame update
     void Start()
