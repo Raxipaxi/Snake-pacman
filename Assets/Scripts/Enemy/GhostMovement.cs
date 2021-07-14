@@ -27,8 +27,8 @@ public class GhostMovement : MonoBehaviour
 
         snakePos = GameObject.Find(snakePlayer.name).transform.position;
 
-        int origin = SearchNodeEtiq(transform.position);
-        int destiny = SearchNodeEtiq(snakePos); // Busca el nodo que corresponde a ese position
+        int origin = SearchNodeEtiq(transform.position); // Busca la etiqueta del nodo donde está parado el enemigo
+        int destiny = SearchNodeEtiq(snakePos); // Busca la etiqueta del nodo donde está parada la snake
         
         if (origin != 0 && destiny != 0)
         {
