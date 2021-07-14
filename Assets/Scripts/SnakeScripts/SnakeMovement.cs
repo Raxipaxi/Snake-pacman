@@ -39,6 +39,8 @@ public class SnakeMovement : MonoBehaviour
 
     public UnityEvent OnCherryCollected;
     public UnityEvent OnGetDamage;
+    [SerializeField]
+    private SoundManager soundManager;
 
     void Awake ()
     {
@@ -248,6 +250,7 @@ public class SnakeMovement : MonoBehaviour
        {
             case Tags.FRUIT:
                 OnCherryCollected.Invoke();
+                soundManager.SetSound(0, 0.5f);
                 target.gameObject.SetActive(false);
                 createBodyPart = true;
                 break;
@@ -256,6 +259,7 @@ public class SnakeMovement : MonoBehaviour
                 direction=reset;
                 BodyParts[BodyParts.Count - 1].gameObject.SetActive(false);
                 OnGetDamage.Invoke();
+                soundManager.SetSound(1, 0.5f);
                 BodyParts.RemoveAt(BodyParts.Count - 1);
                 if (BodyParts.Count > 2)
                 {
