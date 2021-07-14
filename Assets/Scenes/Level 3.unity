@@ -139,6 +139,102 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 974549811984223265, guid: 7639886c210618642aad9817f4ae9d23, type: 3}
   m_PrefabInstance: {fileID: 233692859}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &59655586
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59655585}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 2667a0a008b044e218b63df62e2be749, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &233692859
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -146,6 +242,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 974549810263879587, guid: 7639886c210618642aad9817f4ae9d23, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1763323572}
+    - target: {fileID: 974549810263879587, guid: 7639886c210618642aad9817f4ae9d23, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ReturnMenu
+      objectReference: {fileID: 0}
     - target: {fileID: 974549810586638534, guid: 7639886c210618642aad9817f4ae9d23, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -233,6 +337,18 @@ PrefabInstance:
     - target: {fileID: 974549810586638586, guid: 7639886c210618642aad9817f4ae9d23, type: 3}
       propertyPath: m_Name
       value: CanvasScreenWin
+      objectReference: {fileID: 0}
+    - target: {fileID: 974549811759485209, guid: 7639886c210618642aad9817f4ae9d23, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1763323572}
+    - target: {fileID: 974549811759485209, guid: 7639886c210618642aad9817f4ae9d23, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ReturnScoreboard
+      objectReference: {fileID: 0}
+    - target: {fileID: 974549811984223265, guid: 7639886c210618642aad9817f4ae9d23, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7639886c210618642aad9817f4ae9d23, type: 3}
@@ -949,6 +1065,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1763323572 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 228096347592799055, guid: 08af1a4143146bb4593af4a3ec14ebcc, type: 3}
+  m_PrefabInstance: {fileID: 2133695290}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a48cc93bbaa7d44e8049a915e5c5105, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1763323573 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 228096347592799053, guid: 08af1a4143146bb4593af4a3ec14ebcc, type: 3}
+  m_PrefabInstance: {fileID: 2133695290}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6fb2bdf0b14294a98cc431e98eb061, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1777577896
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -956,7 +1094,35 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 494837055, guid: f1a58d2a3573ff14fae9e1584285fb1e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1763323572}
+    - target: {fileID: 494837055, guid: f1a58d2a3573ff14fae9e1584285fb1e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ReturnScoreboard
+      objectReference: {fileID: 0}
+    - target: {fileID: 971170051, guid: f1a58d2a3573ff14fae9e1584285fb1e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1763323572}
+    - target: {fileID: 971170051, guid: f1a58d2a3573ff14fae9e1584285fb1e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ReturnMenu
+      objectReference: {fileID: 0}
     - target: {fileID: 1412725904, guid: f1a58d2a3573ff14fae9e1584285fb1e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1602716355, guid: f1a58d2a3573ff14fae9e1584285fb1e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1763323573}
+    - target: {fileID: 1602716355, guid: f1a58d2a3573ff14fae9e1584285fb1e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RestartLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4670183211039480776, guid: f1a58d2a3573ff14fae9e1584285fb1e, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
