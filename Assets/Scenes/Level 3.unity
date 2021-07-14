@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -330,6 +330,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1260727923}
     - target: {fileID: 2308870144761679389, guid: 89bc5db16dfb6024ba8b1878b9cd0bcc, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2308870144761679389, guid: 89bc5db16dfb6024ba8b1878b9cd0bcc, type: 3}
       propertyPath: snakePlayer
       value: 
       objectReference: {fileID: 1010446443}
@@ -529,6 +533,10 @@ PrefabInstance:
       propertyPath: grid
       value: 
       objectReference: {fileID: 1260727923}
+    - target: {fileID: 2308870144761679389, guid: 89bc5db16dfb6024ba8b1878b9cd0bcc, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2308870144761679389, guid: 89bc5db16dfb6024ba8b1878b9cd0bcc, type: 3}
       propertyPath: snakePlayer
       value: 
@@ -1324,6 +1332,58 @@ PrefabInstance:
       propertyPath: m_Text
       value: LEVEL 3
       objectReference: {fileID: 0}
+    - target: {fileID: 7005036213481318360, guid: cf42660eb620a704dbfc9b2ff46af32c, type: 3}
+      propertyPath: panel
+      value: 
+      objectReference: {fileID: 1938003456}
+    - target: {fileID: 7005036213481318360, guid: cf42660eb620a704dbfc9b2ff46af32c, type: 3}
+      propertyPath: positions.Array.data[0]
+      value: 
+      objectReference: {fileID: 308785719}
+    - target: {fileID: 7005036213481318360, guid: cf42660eb620a704dbfc9b2ff46af32c, type: 3}
+      propertyPath: positions.Array.data[1]
+      value: 
+      objectReference: {fileID: 914235702}
+    - target: {fileID: 7005036213481318360, guid: cf42660eb620a704dbfc9b2ff46af32c, type: 3}
+      propertyPath: positions.Array.data[2]
+      value: 
+      objectReference: {fileID: 1039694086}
+    - target: {fileID: 7005036213481318360, guid: cf42660eb620a704dbfc9b2ff46af32c, type: 3}
+      propertyPath: positions.Array.data[3]
+      value: 
+      objectReference: {fileID: 1302589442}
+    - target: {fileID: 7005036213481318360, guid: cf42660eb620a704dbfc9b2ff46af32c, type: 3}
+      propertyPath: positions.Array.data[4]
+      value: 
+      objectReference: {fileID: 627502150}
+    - target: {fileID: 7005036213481318365, guid: cf42660eb620a704dbfc9b2ff46af32c, type: 3}
+      propertyPath: panel
+      value: 
+      objectReference: {fileID: 1243311784}
+    - target: {fileID: 7005036213481318365, guid: cf42660eb620a704dbfc9b2ff46af32c, type: 3}
+      propertyPath: positions.Array.data[0]
+      value: 
+      objectReference: {fileID: 1629806329}
+    - target: {fileID: 7005036213481318365, guid: cf42660eb620a704dbfc9b2ff46af32c, type: 3}
+      propertyPath: positions.Array.data[1]
+      value: 
+      objectReference: {fileID: 460232371}
+    - target: {fileID: 7005036213481318365, guid: cf42660eb620a704dbfc9b2ff46af32c, type: 3}
+      propertyPath: positions.Array.data[2]
+      value: 
+      objectReference: {fileID: 627439316}
+    - target: {fileID: 7005036213481318365, guid: cf42660eb620a704dbfc9b2ff46af32c, type: 3}
+      propertyPath: positions.Array.data[3]
+      value: 
+      objectReference: {fileID: 606225661}
+    - target: {fileID: 7005036213481318365, guid: cf42660eb620a704dbfc9b2ff46af32c, type: 3}
+      propertyPath: positions.Array.data[4]
+      value: 
+      objectReference: {fileID: 804239134}
+    - target: {fileID: 7005036213481318366, guid: cf42660eb620a704dbfc9b2ff46af32c, type: 3}
+      propertyPath: scoreText
+      value: 
+      objectReference: {fileID: 11732973}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf42660eb620a704dbfc9b2ff46af32c, type: 3}
 --- !u!114 &1938003456 stripped
@@ -1627,7 +1687,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1646252485147904302, guid: 89bc5db16dfb6024ba8b1878b9cd0bcc, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 21.5
+      value: 22.5
       objectReference: {fileID: 0}
     - target: {fileID: 1646252485147904302, guid: 89bc5db16dfb6024ba8b1878b9cd0bcc, type: 3}
       propertyPath: m_LocalRotation.w

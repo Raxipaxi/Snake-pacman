@@ -35,7 +35,8 @@ public class GhostMovement : MonoBehaviour
             Dijkstra.AlgDijkstra(grid.GetGraph(), origin);
 
             print(Dijkstra.nodos[destiny-1]); 
-            string pattern = ","; 
+            string pattern = ",";
+            var aux = Dijkstra.nodos[destiny - 1];
             string[] Sway = Regex.Split(Dijkstra.nodos[destiny-1], pattern); 
             int[] way = new int[Sway.Length];
             enemyPath = new Vector3[way.Length];
