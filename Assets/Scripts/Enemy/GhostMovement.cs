@@ -19,7 +19,6 @@ public class GhostMovement : MonoBehaviour
     void Start()
     {
         InvokeRepeating("ItsDijkstraTime",0f ,dijkstraRepeat);
-        
     }
 
     void ItsDijkstraTime()
@@ -33,10 +32,8 @@ public class GhostMovement : MonoBehaviour
         if (origin != 0 && destiny != 0)
         {
             Dijkstra.AlgDijkstra(grid.GetGraph(), origin);
-
-            print(Dijkstra.nodos[destiny-1]); 
+            
             string pattern = ",";
-            var aux = Dijkstra.nodos[destiny - 1];
             string[] Sway = Regex.Split(Dijkstra.nodos[destiny-1], pattern); 
             int[] way = new int[Sway.Length];
             enemyPath = new Vector3[way.Length];

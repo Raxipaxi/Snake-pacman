@@ -24,7 +24,6 @@ public class GhostMovement2 : MonoBehaviour
 
     void ItsDijkstraTime()
     {
-
         snakePos = GameObject.Find(snakePlayer.name).transform.position;
 
         int origin = SearchNodeEtiq(transform.position);
@@ -34,7 +33,6 @@ public class GhostMovement2 : MonoBehaviour
         {
             Dijkstra.AlgDijkstra(grid.GetGraph(), origin);
 
-            print(Dijkstra.nodos[destiny-1]); 
             string pattern = ",";
             var aux = Dijkstra.nodos[destiny - 1];
             string[] Sway = Regex.Split(Dijkstra.nodos[destiny-1], pattern); 

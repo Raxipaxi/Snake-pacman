@@ -370,10 +370,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grid: {fileID: 1260727923}
-  follow: 10
-  dijkstraRepeat: 2
+  follow: 12
+  dijkstraRepeat: 1
   snakePlayer: {fileID: 1010446443}
-  frequency: 0.3
+  frequency: 0.35
   enemyPath: []
   pathEtiq: 
 --- !u!224 &308785719 stripped
@@ -446,6 +446,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1260727923}
     - target: {fileID: 2308870144761679389, guid: 89bc5db16dfb6024ba8b1878b9cd0bcc, type: 3}
+      propertyPath: frequency
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2308870144761679389, guid: 89bc5db16dfb6024ba8b1878b9cd0bcc, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
@@ -453,6 +457,10 @@ PrefabInstance:
       propertyPath: snakePlayer
       value: 
       objectReference: {fileID: 1010446443}
+    - target: {fileID: 2308870144761679389, guid: 89bc5db16dfb6024ba8b1878b9cd0bcc, type: 3}
+      propertyPath: dijkstraRepeat
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89bc5db16dfb6024ba8b1878b9cd0bcc, type: 3}
 --- !u!1001 &572618423
@@ -607,7 +615,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1646252485147904302, guid: 89bc5db16dfb6024ba8b1878b9cd0bcc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -29.5537
+      value: -52.5
       objectReference: {fileID: 0}
     - target: {fileID: 1646252485147904302, guid: 89bc5db16dfb6024ba8b1878b9cd0bcc, type: 3}
       propertyPath: m_LocalPosition.y
@@ -615,7 +623,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1646252485147904302, guid: 89bc5db16dfb6024ba8b1878b9cd0bcc, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 51.86225
+      value: 52.5
       objectReference: {fileID: 0}
     - target: {fileID: 1646252485147904302, guid: 89bc5db16dfb6024ba8b1878b9cd0bcc, type: 3}
       propertyPath: m_LocalRotation.w
@@ -650,6 +658,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1260727923}
     - target: {fileID: 2308870144761679389, guid: 89bc5db16dfb6024ba8b1878b9cd0bcc, type: 3}
+      propertyPath: frequency
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2308870144761679389, guid: 89bc5db16dfb6024ba8b1878b9cd0bcc, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
@@ -657,6 +669,10 @@ PrefabInstance:
       propertyPath: snakePlayer
       value: 
       objectReference: {fileID: 1010446443}
+    - target: {fileID: 2308870144761679389, guid: 89bc5db16dfb6024ba8b1878b9cd0bcc, type: 3}
+      propertyPath: dijkstraRepeat
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89bc5db16dfb6024ba8b1878b9cd0bcc, type: 3}
 --- !u!1001 &696036791
@@ -1716,6 +1732,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1222894014754695695, guid: 41086efd0772cd041a737b0b7d11aa94, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1222894014754695695, guid: 41086efd0772cd041a737b0b7d11aa94, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 119.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1894435085538641228, guid: 41086efd0772cd041a737b0b7d11aa94, type: 3}
       propertyPath: m_Name
       value: ScenarioLvl3
@@ -1764,21 +1788,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3576770089322241863, guid: 41086efd0772cd041a737b0b7d11aa94, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 35.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 7220463414814558184, guid: 41086efd0772cd041a737b0b7d11aa94, type: 3}
+    - target: {fileID: 2591035124772004494, guid: 41086efd0772cd041a737b0b7d11aa94, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.9
+      value: -9.6
       objectReference: {fileID: 0}
-    - target: {fileID: 7220463414814558184, guid: 41086efd0772cd041a737b0b7d11aa94, type: 3}
+    - target: {fileID: 2591035124772004494, guid: 41086efd0772cd041a737b0b7d11aa94, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 59.9
+      value: 119.5
       objectReference: {fileID: 0}
-    - target: {fileID: 7220463415052549716, guid: 41086efd0772cd041a737b0b7d11aa94, type: 3}
+    - target: {fileID: 7256792164798378369, guid: 41086efd0772cd041a737b0b7d11aa94, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7256792164798378369, guid: 41086efd0772cd041a737b0b7d11aa94, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 14.3
+      value: 119.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41086efd0772cd041a737b0b7d11aa94, type: 3}
@@ -1904,8 +1928,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1260727923}
     - target: {fileID: 2308870144761679389, guid: 89bc5db16dfb6024ba8b1878b9cd0bcc, type: 3}
+      propertyPath: frequency
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2308870144761679389, guid: 89bc5db16dfb6024ba8b1878b9cd0bcc, type: 3}
       propertyPath: snakePlayer
       value: 
       objectReference: {fileID: 1010446443}
+    - target: {fileID: 2308870144761679389, guid: 89bc5db16dfb6024ba8b1878b9cd0bcc, type: 3}
+      propertyPath: dijkstraRepeat
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89bc5db16dfb6024ba8b1878b9cd0bcc, type: 3}
